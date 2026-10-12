@@ -1,0 +1,869 @@
+appointment_id,patient_id,appointment_date,department,status,waiting_days,invalid_waiting_days,weekday_x,age_group,locality,visit_history,reminder_type,sent_status,response,weekday_y,holiday,season,is_no_show,appointment_month,is_long_wait,is_new_patient,weekday
+A0001,P103,2026-05-24,Pediatrics,Attended,11,False,Sunday,60+,East,6+ Visits,SMS,Failed,Rescheduled,Sunday,Weekend,Summer,0,5,1,0,Sunday
+A0002,P271,2026-01-19,Ent,Attended,21,False,Monday,18-29,South,New Patient,No Reminder,Not Applicable,Confirmed,Monday,Weekday,Winter,0,1,1,1,Monday
+A0003,P107,2026-01-18,Ent,Attended,21,False,Sunday,45-59,South,1-2 Visits,Phone Call,Not Applicable,Rescheduled,Sunday,Weekend,Winter,0,1,1,0,Sunday
+A0004,P072,2026-09-14,Dermatology,Attended,17,False,Monday,45-59,Rural,1-2 Visits,Phone Call,Not Applicable,Rescheduled,Monday,Weekday,Monsoon,0,9,1,0,Monday
+A0005,P189,2026-03-19,Ent,Attended,14,False,Thursday,60+,South,1-2 Visits,No Reminder,Sent,Confirmed,Thursday,Weekday,Summer,0,3,1,0,Thursday
+A0006,P021,2026-06-24,Orthopedics,Attended,16,False,Wednesday,18-29,East,3-5 Visits,No Reminder,Sent,Confirmed,Wednesday,Weekday,Monsoon,0,6,1,0,Wednesday
+A0009,P215,2026-04-24,Cardiology,No-show,13,False,Friday,60+,East,3-5 Visits,Email,Not Applicable,Confirmed,Friday,Weekday,Summer,1,4,1,0,Friday
+A0010,P088,2026-08-10,Dermatology,Attended,17,False,Monday,30-44,South,New Patient,No Reminder,Sent,Rescheduled,Monday,Weekday,Monsoon,0,8,1,1,Monday
+A0012,P152,2026-05-12,General Medicine,Attended,17,False,Tuesday,18-29,East,3-5 Visits,No Reminder,Failed,No Response,Tuesday,Weekday,Summer,0,5,1,0,Tuesday
+A0013,P131,2026-09-21,Cardiology,No-show,15,False,Monday,45-59,West,3-5 Visits,WhatsApp,Not Applicable,Confirmed,Monday,Weekday,Monsoon,1,9,1,0,Monday
+A0014,P150,2026-02-24,Orthopedics,Attended,0,False,Tuesday,60+,West,6+ Visits,Email,Not Applicable,Rescheduled,Tuesday,Weekday,Winter,0,2,0,0,Tuesday
+A0015,P258,2026-05-11,Ent,No-show,22,False,Monday,30-44,South,6+ Visits,SMS,Sent,No Response,Monday,Weekday,Summer,1,5,1,0,Monday
+A0016,P294,2026-09-23,Orthopedics,Attended,26,False,Wednesday,45-59,East,New Patient,Email,Sent,Rescheduled,Wednesday,Weekday,Monsoon,0,9,1,1,Wednesday
+A0019,P161,2026-02-24,Cardiology,Attended,11,False,Tuesday,60+,West,3-5 Visits,No Reminder,Sent,Rescheduled,Tuesday,Weekday,Winter,0,2,1,0,Tuesday
+A0020,P022,2026-06-27,Cardiology,Attended,7,False,Saturday,18-29,Rural,6+ Visits,No Reminder,Sent,No Response,Saturday,Weekend,Monsoon,0,6,1,0,Saturday
+A0022,P236,2026-09-04,Ent,Attended,19,False,Friday,60+,North,3-5 Visits,Phone Call,Not Applicable,No Response,Friday,Weekday,Monsoon,0,9,1,0,Friday
+A0024,P059,2026-02-23,Dermatology,Attended,5,False,Monday,45-59,East,6+ Visits,SMS,Not Applicable,Rescheduled,Monday,Weekday,Winter,0,2,0,0,Monday
+A0025,P170,2026-09-06,Pediatrics,Attended,2,False,Sunday,18-29,South,3-5 Visits,WhatsApp,Failed,Confirmed,Sunday,Weekend,Monsoon,0,9,0,0,Sunday
+A0026,P188,2026-08-27,Orthopedics,Attended,27,False,Thursday,18-29,North,New Patient,Email,Not Applicable,Rescheduled,Thursday,Weekday,Monsoon,0,8,1,1,Thursday
+A0027,P271,2026-08-17,Orthopedics,Attended,23,False,Monday,18-29,South,New Patient,Email,Failed,Rescheduled,Monday,Weekday,Monsoon,0,8,1,1,Monday
+A0028,P190,2026-03-08,General Medicine,No-show,25,False,Sunday,18-29,North,6+ Visits,SMS,Failed,Confirmed,Sunday,Weekend,Summer,1,3,1,0,Sunday
+A0029,P175,2026-02-20,Dermatology,Attended,29,False,Friday,45-59,West,6+ Visits,No Reminder,Failed,Rescheduled,Friday,Weekday,Winter,0,2,1,0,Friday
+A0030,P051,2026-04-07,Ent,Attended,12,False,Tuesday,30-44,South,New Patient,WhatsApp,Not Applicable,No Response,Tuesday,Weekday,Summer,0,4,1,1,Tuesday
+A0031,P055,2026-04-02,Pediatrics,Attended,12,False,Thursday,45-59,East,New Patient,SMS,Failed,Rescheduled,Thursday,Weekday,Summer,0,4,1,1,Thursday
+A0032,P244,2026-09-21,Pediatrics,Attended,1,False,Monday,30-44,Rural,New Patient,No Reminder,Not Applicable,Confirmed,Monday,Weekday,Monsoon,0,9,0,1,Monday
+A0035,P021,2026-03-19,General Medicine,Attended,5,False,Thursday,18-29,East,3-5 Visits,WhatsApp,Sent,Rescheduled,Thursday,Weekday,Summer,0,3,0,0,Thursday
+A0036,P167,2026-04-30,Dermatology,No-show,1,False,Thursday,30-44,North,New Patient,Phone Call,Failed,Rescheduled,Thursday,Weekday,Summer,1,4,0,1,Thursday
+A0037,P274,2026-06-14,Cardiology,No-show,3,False,Sunday,30-44,North,1-2 Visits,WhatsApp,Failed,Confirmed,Sunday,Weekend,Monsoon,1,6,0,0,Sunday
+A0038,P089,2026-07-01,Dermatology,Attended,21,False,Wednesday,45-59,East,6+ Visits,Phone Call,Not Applicable,No Response,Wednesday,Weekday,Monsoon,0,7,1,0,Wednesday
+A0040,P242,2026-01-07,Cardiology,Attended,10,False,Wednesday,45-59,Rural,New Patient,Phone Call,Failed,Rescheduled,Wednesday,Weekday,Winter,0,1,1,1,Wednesday
+A0041,P265,2026-09-20,General Medicine,Attended,7,False,Sunday,30-44,East,1-2 Visits,Email,Not Applicable,No Response,Sunday,Weekend,Monsoon,0,9,1,0,Sunday
+A0042,P053,2026-06-10,Ent,No-show,11,False,Wednesday,30-44,West,6+ Visits,No Reminder,Failed,Confirmed,Wednesday,Weekday,Monsoon,1,6,1,0,Wednesday
+A0043,P092,2026-05-31,Orthopedics,Attended,7,False,Sunday,30-44,North,6+ Visits,Phone Call,Failed,Confirmed,Sunday,Weekend,Summer,0,5,1,0,Sunday
+A0044,P264,2026-03-26,Dermatology,No-show,10,False,Thursday,60+,West,New Patient,Phone Call,Not Applicable,Confirmed,Thursday,Weekday,Summer,1,3,1,1,Thursday
+A0046,P206,2026-04-22,Dermatology,Attended,19,False,Wednesday,30-44,East,3-5 Visits,Phone Call,Sent,Confirmed,Wednesday,Weekday,Summer,0,4,1,0,Wednesday
+A0048,P050,2026-07-07,Orthopedics,Attended,28,False,Tuesday,18-29,North,New Patient,Email,Sent,Confirmed,Tuesday,Weekday,Monsoon,0,7,1,1,Tuesday
+A0049,P002,2026-03-23,Ent,Attended,7,False,Monday,18-29,North,6+ Visits,SMS,Failed,No Response,Monday,Weekday,Summer,0,3,1,0,Monday
+A0050,P054,2026-01-02,Orthopedics,Attended,25,False,Friday,18-29,Rural,New Patient,Email,Not Applicable,Confirmed,Friday,Weekday,Winter,0,1,1,1,Friday
+A0052,P260,2026-01-11,Orthopedics,Attended,16,False,Sunday,30-44,West,1-2 Visits,SMS,Not Applicable,Rescheduled,Sunday,Weekend,Winter,0,1,1,0,Sunday
+A0053,P191,2026-08-22,General Medicine,Attended,19,False,Saturday,30-44,Rural,6+ Visits,Phone Call,Failed,Confirmed,Saturday,Weekend,Monsoon,0,8,1,0,Saturday
+A0054,P218,2026-07-14,Ent,No-show,19,False,Tuesday,30-44,West,New Patient,Email,Sent,Rescheduled,Tuesday,Weekday,Monsoon,1,7,1,1,Tuesday
+A0055,P044,2026-04-29,Cardiology,No-show,22,False,Wednesday,60+,West,1-2 Visits,Phone Call,Failed,No Response,Wednesday,Weekday,Summer,1,4,1,0,Wednesday
+A0056,P162,2026-01-20,Pediatrics,No-show,15,False,Tuesday,60+,South,6+ Visits,SMS,Failed,Confirmed,Tuesday,Weekday,Winter,1,1,1,0,Tuesday
+A0057,P202,2026-09-18,General Medicine,Attended,13,False,Friday,18-29,South,1-2 Visits,SMS,Not Applicable,No Response,Friday,Weekday,Monsoon,0,9,1,0,Friday
+A0058,P270,2026-09-13,Dermatology,Attended,29,False,Sunday,60+,Rural,1-2 Visits,Phone Call,Sent,Confirmed,Sunday,Weekend,Monsoon,0,9,1,0,Sunday
+A0059,P271,2026-08-10,Ent,Attended,10,False,Monday,18-29,South,New Patient,WhatsApp,Failed,Rescheduled,Monday,Weekday,Monsoon,0,8,1,1,Monday
+A0060,P215,2026-08-14,Cardiology,No-show,6,False,Friday,60+,East,3-5 Visits,Email,Not Applicable,No Response,Friday,Weekday,Monsoon,1,8,0,0,Friday
+A0061,P252,2026-02-22,Orthopedics,Attended,15,False,Sunday,18-29,South,6+ Visits,Email,Failed,Rescheduled,Sunday,Weekend,Winter,0,2,1,0,Sunday
+A0062,P190,2026-03-22,Cardiology,Attended,12,False,Sunday,18-29,North,6+ Visits,Phone Call,Failed,Rescheduled,Sunday,Weekend,Summer,0,3,1,0,Sunday
+A0064,P213,2026-06-07,Pediatrics,Attended,14,False,Sunday,60+,North,3-5 Visits,SMS,Not Applicable,No Response,Sunday,Weekend,Monsoon,0,6,1,0,Sunday
+A0066,P237,2026-02-28,Ent,Attended,15,False,Saturday,60+,South,1-2 Visits,No Reminder,Failed,Confirmed,Saturday,Weekend,Winter,0,2,1,0,Saturday
+A0067,P053,2026-08-03,Pediatrics,No-show,26,False,Monday,30-44,West,6+ Visits,Phone Call,Not Applicable,Confirmed,Monday,Weekday,Monsoon,1,8,1,0,Monday
+A0068,P280,2026-05-08,Ent,Attended,20,False,Friday,18-29,East,New Patient,WhatsApp,Not Applicable,Confirmed,Friday,Weekday,Summer,0,5,1,1,Friday
+A0069,P217,2026-08-12,Ent,Attended,22,False,Wednesday,18-29,West,New Patient,WhatsApp,Sent,Rescheduled,Wednesday,Weekday,Monsoon,0,8,1,1,Wednesday
+A0070,P252,2026-07-28,Ent,No-show,23,False,Tuesday,18-29,South,6+ Visits,Email,Sent,Confirmed,Tuesday,Weekday,Monsoon,1,7,1,0,Tuesday
+A0071,P188,2026-04-25,Orthopedics,No-show,30,False,Saturday,18-29,North,New Patient,SMS,Not Applicable,No Response,Saturday,Weekend,Summer,1,4,1,1,Saturday
+A0072,P041,2026-07-28,General Medicine,No-show,8,False,Tuesday,18-29,Rural,New Patient,WhatsApp,Sent,No Response,Tuesday,Weekday,Monsoon,1,7,1,1,Tuesday
+A0073,P157,2026-01-14,Ent,Attended,2,False,Wednesday,45-59,East,6+ Visits,No Reminder,Not Applicable,Rescheduled,Wednesday,Weekday,Winter,0,1,0,0,Wednesday
+A0074,P015,2026-01-09,Ent,No-show,18,False,Friday,30-44,East,6+ Visits,SMS,Failed,No Response,Friday,Weekday,Winter,1,1,1,0,Friday
+A0075,P065,2026-02-09,General Medicine,No-show,19,False,Monday,60+,Rural,3-5 Visits,SMS,Sent,Confirmed,Monday,Weekday,Winter,1,2,1,0,Monday
+A0076,P009,2026-08-25,Cardiology,Attended,4,False,Tuesday,45-59,South,6+ Visits,Phone Call,Failed,Rescheduled,Tuesday,Weekday,Monsoon,0,8,0,0,Tuesday
+A0077,P129,2026-07-20,Ent,No-show,9,False,Monday,60+,North,New Patient,WhatsApp,Failed,Confirmed,Monday,Weekday,Monsoon,1,7,1,1,Monday
+A0078,P136,2026-09-03,Orthopedics,No-show,16,False,Thursday,18-29,West,1-2 Visits,Phone Call,Failed,Rescheduled,Thursday,Weekday,Monsoon,1,9,1,0,Thursday
+A0079,P063,2026-08-23,Pediatrics,Attended,14,False,Sunday,60+,West,New Patient,WhatsApp,Not Applicable,Rescheduled,Sunday,Weekend,Monsoon,0,8,1,1,Sunday
+A0080,P139,2026-01-04,Pediatrics,Attended,30,False,Sunday,18-29,South,1-2 Visits,Email,Failed,Confirmed,Sunday,Weekend,Winter,0,1,1,0,Sunday
+A0081,P081,2026-06-03,Dermatology,Attended,22,False,Wednesday,60+,Rural,New Patient,Phone Call,Failed,No Response,Wednesday,Weekday,Monsoon,0,6,1,1,Wednesday
+A0082,P163,2026-01-29,Dermatology,Attended,24,False,Thursday,45-59,North,3-5 Visits,Phone Call,Failed,No Response,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0083,P289,2026-04-19,Pediatrics,Attended,7,False,Sunday,45-59,East,New Patient,No Reminder,Not Applicable,Rescheduled,Sunday,Weekend,Summer,0,4,1,1,Sunday
+A0084,P261,2026-04-08,Pediatrics,Attended,14,False,Wednesday,60+,East,New Patient,Phone Call,Failed,Confirmed,Wednesday,Weekday,Summer,0,4,1,1,Wednesday
+A0085,P231,2026-08-03,Orthopedics,Attended,30,False,Monday,45-59,Rural,1-2 Visits,WhatsApp,Failed,Confirmed,Monday,Weekday,Monsoon,0,8,1,0,Monday
+A0086,P041,2026-03-16,General Medicine,Attended,20,False,Monday,18-29,Rural,New Patient,No Reminder,Sent,Rescheduled,Monday,Weekday,Summer,0,3,1,1,Monday
+A0087,P028,2026-05-26,Dermatology,Attended,29,False,Tuesday,30-44,Rural,1-2 Visits,Phone Call,Not Applicable,No Response,Tuesday,Weekday,Summer,0,5,1,0,Tuesday
+A0088,P135,2026-05-08,General Medicine,No-show,13,False,Friday,60+,East,New Patient,Phone Call,Failed,Confirmed,Friday,Weekday,Summer,1,5,1,1,Friday
+A0090,P268,2026-02-10,Pediatrics,Attended,27,False,Tuesday,60+,North,New Patient,Phone Call,Not Applicable,No Response,Tuesday,Weekday,Winter,0,2,1,1,Tuesday
+A0092,P048,2026-01-17,General Medicine,Attended,20,False,Saturday,60+,Rural,6+ Visits,No Reminder,Not Applicable,Rescheduled,Saturday,Weekend,Winter,0,1,1,0,Saturday
+A0093,P062,2026-06-14,Pediatrics,Attended,22,False,Sunday,18-29,West,6+ Visits,SMS,Not Applicable,No Response,Sunday,Weekend,Monsoon,0,6,1,0,Sunday
+A0094,P216,2026-06-02,Pediatrics,Attended,11,False,Tuesday,30-44,South,3-5 Visits,No Reminder,Not Applicable,Confirmed,Tuesday,Weekday,Monsoon,0,6,1,0,Tuesday
+A0095,P293,2026-03-17,Cardiology,Attended,16,False,Tuesday,60+,Rural,6+ Visits,Email,Not Applicable,Confirmed,Tuesday,Weekday,Summer,0,3,1,0,Tuesday
+A0096,P099,2026-03-28,General Medicine,No-show,16,False,Saturday,18-29,South,3-5 Visits,Phone Call,Failed,Rescheduled,Saturday,Weekend,Summer,1,3,1,0,Saturday
+A0097,P172,2026-04-27,Ent,No-show,9,False,Monday,60+,Rural,3-5 Visits,Phone Call,Failed,No Response,Monday,Weekday,Summer,1,4,1,0,Monday
+A0098,P214,2026-01-27,General Medicine,Attended,29,False,Tuesday,30-44,West,1-2 Visits,Phone Call,Failed,Confirmed,Tuesday,Weekday,Winter,0,1,1,0,Tuesday
+A0099,P035,2026-05-14,Pediatrics,Attended,28,False,Thursday,18-29,North,1-2 Visits,No Reminder,Failed,Confirmed,Thursday,Weekday,Summer,0,5,1,0,Thursday
+A0100,P227,2026-08-07,Ent,Attended,18,False,Friday,18-29,South,3-5 Visits,Phone Call,Sent,Rescheduled,Friday,Weekday,Monsoon,0,8,1,0,Friday
+A0101,P101,2026-06-17,Orthopedics,Attended,13,False,Wednesday,45-59,East,6+ Visits,SMS,Failed,No Response,Wednesday,Weekday,Monsoon,0,6,1,0,Wednesday
+A0102,P131,2026-04-08,Cardiology,Attended,10,False,Wednesday,45-59,West,3-5 Visits,Phone Call,Not Applicable,Confirmed,Wednesday,Weekday,Summer,0,4,1,0,Wednesday
+A0103,P257,2026-09-25,Pediatrics,Attended,1,False,Friday,30-44,Rural,New Patient,Email,Failed,Rescheduled,Friday,Weekday,Monsoon,0,9,0,1,Friday
+A0104,P005,2026-08-25,Dermatology,No-show,17,False,Tuesday,60+,West,New Patient,SMS,Failed,Confirmed,Tuesday,Weekday,Monsoon,1,8,1,1,Tuesday
+A0106,P255,2026-07-09,Cardiology,Attended,11,False,Thursday,18-29,South,New Patient,Phone Call,Failed,Confirmed,Thursday,Weekday,Monsoon,0,7,1,1,Thursday
+A0108,P207,2026-02-15,Pediatrics,Attended,1,False,Sunday,18-29,East,3-5 Visits,No Reminder,Failed,No Response,Sunday,Weekend,Winter,0,2,0,0,Sunday
+A0109,P015,2026-03-05,General Medicine,Attended,26,False,Thursday,30-44,East,6+ Visits,SMS,Sent,Rescheduled,Thursday,Weekday,Summer,0,3,1,0,Thursday
+A0110,P042,2026-05-10,Cardiology,Attended,19,False,Sunday,30-44,South,6+ Visits,WhatsApp,Failed,No Response,Sunday,Weekend,Summer,0,5,1,0,Sunday
+A0111,P179,2026-07-12,Orthopedics,Attended,17,False,Sunday,18-29,Rural,3-5 Visits,Email,Not Applicable,Confirmed,Sunday,Weekend,Monsoon,0,7,1,0,Sunday
+A0113,P231,2026-01-29,Dermatology,Attended,23,False,Thursday,45-59,Rural,1-2 Visits,SMS,Failed,Confirmed,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0114,P241,2026-05-29,Dermatology,Attended,9,False,Friday,30-44,North,New Patient,Phone Call,Failed,Confirmed,Friday,Weekday,Summer,0,5,1,1,Friday
+A0115,P052,2026-09-24,General Medicine,Attended,19,False,Thursday,60+,Rural,1-2 Visits,SMS,Failed,Rescheduled,Thursday,Weekday,Monsoon,0,9,1,0,Thursday
+A0116,P096,2026-01-11,Cardiology,Attended,14,False,Sunday,30-44,West,New Patient,Phone Call,Not Applicable,Confirmed,Sunday,Weekend,Winter,0,1,1,1,Sunday
+A0118,P231,2026-04-23,Pediatrics,Attended,19,False,Thursday,45-59,Rural,1-2 Visits,Phone Call,Sent,No Response,Thursday,Weekday,Summer,0,4,1,0,Thursday
+A0119,P237,2026-07-06,Ent,Attended,2,False,Monday,60+,South,1-2 Visits,Email,Sent,No Response,Monday,Weekday,Monsoon,0,7,0,0,Monday
+A0120,P143,2026-08-20,General Medicine,Attended,4,False,Thursday,45-59,South,New Patient,Phone Call,Sent,Confirmed,Thursday,Weekday,Monsoon,0,8,0,1,Thursday
+A0121,P171,2026-08-15,General Medicine,Attended,29,False,Saturday,45-59,North,1-2 Visits,Email,Not Applicable,Rescheduled,Saturday,Weekend,Monsoon,0,8,1,0,Saturday
+A0122,P029,2026-04-08,Dermatology,Attended,24,False,Wednesday,60+,North,New Patient,No Reminder,Sent,Confirmed,Wednesday,Weekday,Summer,0,4,1,1,Wednesday
+A0123,P036,2026-02-24,Cardiology,No-show,7,False,Tuesday,45-59,North,1-2 Visits,No Reminder,Failed,Rescheduled,Tuesday,Weekday,Winter,1,2,1,0,Tuesday
+A0124,P013,2026-04-21,Pediatrics,Attended,7,False,Tuesday,45-59,West,6+ Visits,SMS,Failed,Rescheduled,Tuesday,Weekday,Summer,0,4,1,0,Tuesday
+A0125,P160,2026-06-01,Cardiology,No-show,7,False,Monday,60+,Rural,New Patient,Email,Not Applicable,Rescheduled,Monday,Weekday,Monsoon,1,6,1,1,Monday
+A0126,P187,2026-09-03,Orthopedics,No-show,11,False,Thursday,60+,West,6+ Visits,Email,Sent,No Response,Thursday,Weekday,Monsoon,1,9,1,0,Thursday
+A0127,P243,2026-03-10,Orthopedics,No-show,23,False,Tuesday,18-29,West,3-5 Visits,WhatsApp,Failed,Rescheduled,Tuesday,Weekday,Summer,1,3,1,0,Tuesday
+A0128,P086,2026-09-07,Ent,Attended,22,False,Monday,60+,South,6+ Visits,WhatsApp,Not Applicable,No Response,Monday,Weekday,Monsoon,0,9,1,0,Monday
+A0129,P284,2026-02-05,Dermatology,Attended,7,False,Thursday,60+,Rural,6+ Visits,WhatsApp,Sent,Rescheduled,Thursday,Weekday,Winter,0,2,1,0,Thursday
+A0130,P066,2026-08-27,Dermatology,Attended,10,False,Thursday,60+,West,1-2 Visits,Phone Call,Failed,No Response,Thursday,Weekday,Monsoon,0,8,1,0,Thursday
+A0131,P170,2026-05-28,Dermatology,No-show,13,False,Thursday,18-29,South,3-5 Visits,WhatsApp,Sent,No Response,Thursday,Weekday,Summer,1,5,1,0,Thursday
+A0132,P045,2026-08-15,Ent,Attended,7,False,Saturday,30-44,East,3-5 Visits,Email,Not Applicable,No Response,Saturday,Weekend,Monsoon,0,8,1,0,Saturday
+A0133,P062,2026-09-01,Orthopedics,Attended,28,False,Tuesday,18-29,West,6+ Visits,Phone Call,Sent,Confirmed,Tuesday,Weekday,Monsoon,0,9,1,0,Tuesday
+A0134,P134,2026-07-20,Cardiology,Attended,29,False,Monday,45-59,South,3-5 Visits,No Reminder,Not Applicable,Rescheduled,Monday,Weekday,Monsoon,0,7,1,0,Monday
+A0135,P284,2026-06-03,Ent,Attended,23,False,Wednesday,60+,Rural,6+ Visits,SMS,Sent,Confirmed,Wednesday,Weekday,Monsoon,0,6,1,0,Wednesday
+A0136,P028,2026-03-14,Ent,Attended,27,False,Saturday,30-44,Rural,1-2 Visits,WhatsApp,Failed,Rescheduled,Saturday,Weekend,Summer,0,3,1,0,Saturday
+A0137,P108,2026-07-20,Cardiology,Attended,9,False,Monday,60+,West,New Patient,No Reminder,Not Applicable,Rescheduled,Monday,Weekday,Monsoon,0,7,1,1,Monday
+A0138,P044,2026-01-17,Dermatology,No-show,6,False,Saturday,60+,West,1-2 Visits,Email,Not Applicable,Confirmed,Saturday,Weekend,Winter,1,1,0,0,Saturday
+A0139,P286,2026-05-09,Pediatrics,Attended,27,False,Saturday,30-44,Rural,6+ Visits,SMS,Not Applicable,No Response,Saturday,Weekend,Summer,0,5,1,0,Saturday
+A0140,P128,2026-08-05,Cardiology,Attended,16,False,Wednesday,60+,Rural,3-5 Visits,No Reminder,Sent,Rescheduled,Wednesday,Weekday,Monsoon,0,8,1,0,Wednesday
+A0141,P231,2026-03-02,Orthopedics,Attended,3,False,Monday,45-59,Rural,1-2 Visits,SMS,Sent,No Response,Monday,Weekday,Summer,0,3,0,0,Monday
+A0142,P190,2026-04-14,General Medicine,Attended,28,False,Tuesday,18-29,North,6+ Visits,WhatsApp,Failed,Confirmed,Tuesday,Weekday,Summer,0,4,1,0,Tuesday
+A0143,P225,2026-02-11,General Medicine,Attended,12,False,Wednesday,30-44,South,1-2 Visits,Email,Not Applicable,No Response,Wednesday,Weekday,Winter,0,2,1,0,Wednesday
+A0144,P283,2026-01-25,Ent,No-show,3,False,Sunday,18-29,South,1-2 Visits,SMS,Not Applicable,Rescheduled,Sunday,Weekend,Winter,1,1,0,0,Sunday
+A0145,P121,2026-02-08,General Medicine,Attended,4,False,Sunday,30-44,East,1-2 Visits,No Reminder,Sent,Rescheduled,Sunday,Weekend,Winter,0,2,0,0,Sunday
+A0146,P116,2026-05-11,Pediatrics,No-show,25,False,Monday,18-29,North,1-2 Visits,WhatsApp,Sent,Rescheduled,Monday,Weekday,Summer,1,5,1,0,Monday
+A0147,P233,2026-08-17,Dermatology,Attended,21,False,Monday,30-44,Rural,1-2 Visits,WhatsApp,Failed,Confirmed,Monday,Weekday,Monsoon,0,8,1,0,Monday
+A0148,P259,2026-04-18,Orthopedics,Attended,3,False,Saturday,18-29,North,New Patient,No Reminder,Failed,Rescheduled,Saturday,Weekend,Summer,0,4,0,1,Saturday
+A0149,P198,2026-06-21,Pediatrics,No-show,30,False,Sunday,18-29,East,New Patient,No Reminder,Sent,Confirmed,Sunday,Weekend,Monsoon,1,6,1,1,Sunday
+A0150,P137,2026-04-12,Orthopedics,Attended,17,False,Sunday,45-59,North,1-2 Visits,SMS,Not Applicable,No Response,Sunday,Weekend,Summer,0,4,1,0,Sunday
+A0151,P165,2026-01-12,Orthopedics,Attended,5,False,Monday,45-59,North,New Patient,Phone Call,Failed,Rescheduled,Monday,Weekday,Winter,0,1,0,1,Monday
+A0152,P225,2026-04-11,Dermatology,Attended,30,False,Saturday,30-44,South,1-2 Visits,WhatsApp,Sent,Rescheduled,Saturday,Weekend,Summer,0,4,1,0,Saturday
+A0153,P234,2026-02-13,Ent,Attended,23,False,Friday,18-29,North,6+ Visits,SMS,Sent,Rescheduled,Friday,Weekday,Winter,0,2,1,0,Friday
+A0154,P172,2026-01-17,General Medicine,No-show,30,False,Saturday,60+,Rural,3-5 Visits,No Reminder,Not Applicable,No Response,Saturday,Weekend,Winter,1,1,1,0,Saturday
+A0155,P152,2026-02-26,Dermatology,Attended,23,False,Thursday,18-29,East,3-5 Visits,SMS,Sent,Rescheduled,Thursday,Weekday,Winter,0,2,1,0,Thursday
+A0156,P160,2026-01-12,Pediatrics,No-show,22,False,Monday,60+,Rural,New Patient,No Reminder,Sent,Confirmed,Monday,Weekday,Winter,1,1,1,1,Monday
+A0158,P233,2026-08-04,Pediatrics,Attended,1,False,Tuesday,30-44,Rural,1-2 Visits,No Reminder,Sent,No Response,Tuesday,Weekday,Monsoon,0,8,0,0,Tuesday
+A0160,P113,2026-05-29,Pediatrics,Attended,22,False,Friday,45-59,East,1-2 Visits,No Reminder,Failed,No Response,Friday,Weekday,Summer,0,5,1,0,Friday
+A0162,P268,2026-08-03,Ent,Attended,27,False,Monday,60+,North,New Patient,No Reminder,Not Applicable,Confirmed,Monday,Weekday,Monsoon,0,8,1,1,Monday
+A0163,P295,2026-07-17,Ent,No-show,13,False,Friday,18-29,East,New Patient,WhatsApp,Failed,No Response,Friday,Weekday,Monsoon,1,7,1,1,Friday
+A0164,P113,2026-07-19,Orthopedics,Attended,29,False,Sunday,45-59,East,1-2 Visits,WhatsApp,Failed,Rescheduled,Sunday,Weekend,Monsoon,0,7,1,0,Sunday
+A0165,P101,2026-01-25,Orthopedics,Attended,4,False,Sunday,45-59,East,6+ Visits,SMS,Not Applicable,No Response,Sunday,Weekend,Winter,0,1,0,0,Sunday
+A0166,P113,2026-03-30,Cardiology,Attended,5,False,Monday,45-59,East,1-2 Visits,Phone Call,Not Applicable,No Response,Monday,Weekday,Summer,0,3,0,0,Monday
+A0167,P081,2026-09-25,Pediatrics,No-show,9,False,Friday,60+,Rural,New Patient,SMS,Not Applicable,No Response,Friday,Weekday,Monsoon,1,9,1,1,Friday
+A0168,P187,2026-05-23,Orthopedics,Attended,7,False,Saturday,60+,West,6+ Visits,WhatsApp,Not Applicable,No Response,Saturday,Weekend,Summer,0,5,1,0,Saturday
+A0169,P113,2026-02-28,Cardiology,Attended,13,False,Saturday,45-59,East,1-2 Visits,WhatsApp,Not Applicable,No Response,Saturday,Weekend,Winter,0,2,1,0,Saturday
+A0170,P002,2026-01-26,Orthopedics,No-show,23,False,Monday,18-29,North,6+ Visits,Email,Failed,Confirmed,Monday,Weekday,Winter,1,1,1,0,Monday
+A0171,P130,2026-02-16,Pediatrics,Attended,2,False,Monday,30-44,West,3-5 Visits,No Reminder,Sent,Confirmed,Monday,Weekday,Winter,0,2,0,0,Monday
+A0173,P054,2026-01-16,General Medicine,No-show,15,False,Friday,18-29,Rural,New Patient,SMS,Not Applicable,Confirmed,Friday,Weekday,Winter,1,1,1,1,Friday
+A0175,P225,2026-03-27,Dermatology,No-show,29,False,Friday,30-44,South,1-2 Visits,No Reminder,Sent,No Response,Friday,Weekday,Summer,1,3,1,0,Friday
+A0176,P126,2026-09-07,Orthopedics,Attended,22,False,Monday,18-29,Rural,New Patient,No Reminder,Sent,Rescheduled,Monday,Weekday,Monsoon,0,9,1,1,Monday
+A0177,P130,2026-09-27,Orthopedics,Attended,16,False,Sunday,30-44,West,3-5 Visits,Email,Sent,Rescheduled,Sunday,Weekend,Monsoon,0,9,1,0,Sunday
+A0178,P053,2026-04-27,Ent,No-show,0,False,Monday,30-44,West,6+ Visits,Phone Call,Sent,No Response,Monday,Weekday,Summer,1,4,0,0,Monday
+A0179,P172,2026-01-07,Dermatology,Attended,22,False,Wednesday,60+,Rural,3-5 Visits,SMS,Sent,Rescheduled,Wednesday,Weekday,Winter,0,1,1,0,Wednesday
+A0180,P218,2026-05-17,Ent,Attended,30,False,Sunday,30-44,West,New Patient,No Reminder,Failed,Rescheduled,Sunday,Weekend,Summer,0,5,1,1,Sunday
+A0181,P160,2026-06-25,Dermatology,Attended,30,False,Thursday,60+,Rural,New Patient,SMS,Sent,Rescheduled,Thursday,Weekday,Monsoon,0,6,1,1,Thursday
+A0183,P247,2026-03-23,Orthopedics,Attended,24,False,Monday,45-59,Rural,6+ Visits,WhatsApp,Failed,No Response,Monday,Weekday,Summer,0,3,1,0,Monday
+A0184,P203,2026-08-11,Orthopedics,Attended,22,False,Tuesday,30-44,West,3-5 Visits,SMS,Sent,Rescheduled,Tuesday,Weekday,Monsoon,0,8,1,0,Tuesday
+A0185,P184,2026-04-13,General Medicine,Attended,9,False,Monday,30-44,West,6+ Visits,WhatsApp,Not Applicable,No Response,Monday,Weekday,Summer,0,4,1,0,Monday
+A0186,P123,2026-09-30,Cardiology,Attended,20,False,Wednesday,30-44,Rural,3-5 Visits,SMS,Not Applicable,No Response,Wednesday,Weekday,Monsoon,0,9,1,0,Wednesday
+A0187,P255,2026-01-14,Ent,Attended,23,False,Wednesday,18-29,South,New Patient,Phone Call,Sent,Rescheduled,Wednesday,Weekday,Winter,0,1,1,1,Wednesday
+A0188,P294,2026-06-08,General Medicine,Attended,1,False,Monday,45-59,East,New Patient,Email,Failed,No Response,Monday,Weekday,Monsoon,0,6,0,1,Monday
+A0189,P280,2026-06-01,Ent,Attended,8,False,Monday,18-29,East,New Patient,WhatsApp,Not Applicable,Confirmed,Monday,Weekday,Monsoon,0,6,1,1,Monday
+A0190,P098,2026-04-18,Pediatrics,No-show,21,False,Saturday,30-44,South,6+ Visits,No Reminder,Failed,No Response,Saturday,Weekend,Summer,1,4,1,0,Saturday
+A0191,P198,2026-07-07,Orthopedics,Attended,12,False,Tuesday,18-29,East,New Patient,Phone Call,Not Applicable,Confirmed,Tuesday,Weekday,Monsoon,0,7,1,1,Tuesday
+A0192,P240,2026-04-08,Ent,No-show,24,False,Wednesday,45-59,East,New Patient,SMS,Sent,Rescheduled,Wednesday,Weekday,Summer,1,4,1,1,Wednesday
+A0193,P144,2026-05-11,Dermatology,No-show,15,False,Monday,30-44,North,New Patient,WhatsApp,Failed,No Response,Monday,Weekday,Summer,1,5,1,1,Monday
+A0194,P097,2026-06-20,Ent,Attended,17,False,Saturday,18-29,East,1-2 Visits,SMS,Failed,Rescheduled,Saturday,Weekend,Monsoon,0,6,1,0,Saturday
+A0195,P201,2026-07-02,Pediatrics,Attended,18,False,Thursday,45-59,North,New Patient,SMS,Failed,Rescheduled,Thursday,Weekday,Monsoon,0,7,1,1,Thursday
+A0196,P124,2026-02-08,Orthopedics,Attended,11,False,Sunday,60+,Rural,6+ Visits,SMS,Not Applicable,Rescheduled,Sunday,Weekend,Winter,0,2,1,0,Sunday
+A0198,P259,2026-01-04,Pediatrics,Attended,16,False,Sunday,18-29,North,New Patient,Email,Not Applicable,Rescheduled,Sunday,Weekend,Winter,0,1,1,1,Sunday
+A0199,P148,2026-07-29,Orthopedics,Attended,14,False,Wednesday,18-29,West,1-2 Visits,No Reminder,Sent,No Response,Wednesday,Weekday,Monsoon,0,7,1,0,Wednesday
+A0200,P252,2026-06-10,Ent,Attended,9,False,Wednesday,18-29,South,6+ Visits,WhatsApp,Not Applicable,Confirmed,Wednesday,Weekday,Monsoon,0,6,1,0,Wednesday
+A0201,P147,2026-01-16,Cardiology,Attended,14,False,Friday,18-29,North,3-5 Visits,Phone Call,Sent,No Response,Friday,Weekday,Winter,0,1,1,0,Friday
+A0202,P148,2026-04-18,Cardiology,Attended,14,False,Saturday,18-29,West,1-2 Visits,Phone Call,Failed,No Response,Saturday,Weekend,Summer,0,4,1,0,Saturday
+A0203,P199,2026-08-15,Dermatology,Attended,30,False,Saturday,30-44,East,New Patient,Phone Call,Failed,No Response,Saturday,Weekend,Monsoon,0,8,1,1,Saturday
+A0204,P128,2026-06-19,Orthopedics,No-show,22,False,Friday,60+,Rural,3-5 Visits,SMS,Sent,No Response,Friday,Weekday,Monsoon,1,6,1,0,Friday
+A0205,P039,2026-02-03,Cardiology,Attended,6,False,Tuesday,18-29,East,6+ Visits,Email,Not Applicable,Confirmed,Tuesday,Weekday,Winter,0,2,0,0,Tuesday
+A0206,P129,2026-09-08,General Medicine,Attended,12,False,Tuesday,60+,North,New Patient,WhatsApp,Sent,No Response,Tuesday,Weekday,Monsoon,0,9,1,1,Tuesday
+A0207,P267,2026-09-04,Orthopedics,Attended,16,False,Friday,30-44,West,New Patient,SMS,Failed,Rescheduled,Friday,Weekday,Monsoon,0,9,1,1,Friday
+A0208,P151,2026-09-26,General Medicine,No-show,8,False,Saturday,60+,North,1-2 Visits,Email,Failed,No Response,Saturday,Weekend,Monsoon,1,9,1,0,Saturday
+A0209,P298,2026-05-21,General Medicine,Attended,7,False,Thursday,60+,West,1-2 Visits,Email,Sent,No Response,Thursday,Weekday,Summer,0,5,1,0,Thursday
+A0211,P263,2026-08-15,Orthopedics,Attended,25,False,Saturday,30-44,East,1-2 Visits,WhatsApp,Not Applicable,Confirmed,Saturday,Weekend,Monsoon,0,8,1,0,Saturday
+A0212,P252,2026-02-08,Ent,Attended,26,False,Sunday,18-29,South,6+ Visits,WhatsApp,Sent,Rescheduled,Sunday,Weekend,Winter,0,2,1,0,Sunday
+A0213,P144,2026-01-29,Pediatrics,Attended,20,False,Thursday,30-44,North,New Patient,SMS,Sent,No Response,Thursday,Weekday,Winter,0,1,1,1,Thursday
+A0214,P112,2026-09-02,Cardiology,Attended,17,False,Wednesday,18-29,West,6+ Visits,No Reminder,Not Applicable,No Response,Wednesday,Weekday,Monsoon,0,9,1,0,Wednesday
+A0215,P060,2026-08-24,Cardiology,Attended,12,False,Monday,30-44,Rural,1-2 Visits,WhatsApp,Failed,No Response,Monday,Weekday,Monsoon,0,8,1,0,Monday
+A0216,P002,2026-07-04,Ent,Attended,15,False,Saturday,18-29,North,6+ Visits,No Reminder,Sent,Rescheduled,Saturday,Weekend,Monsoon,0,7,1,0,Saturday
+A0217,P254,2026-09-29,Orthopedics,No-show,8,False,Tuesday,60+,East,1-2 Visits,SMS,Not Applicable,Confirmed,Tuesday,Weekday,Monsoon,1,9,1,0,Tuesday
+A0218,P140,2026-08-24,Orthopedics,Attended,30,False,Monday,60+,West,New Patient,No Reminder,Not Applicable,Rescheduled,Monday,Weekday,Monsoon,0,8,1,1,Monday
+A0219,P037,2026-08-27,General Medicine,Attended,11,False,Thursday,45-59,West,New Patient,Phone Call,Failed,No Response,Thursday,Weekday,Monsoon,0,8,1,1,Thursday
+A0220,P160,2026-09-23,Ent,Attended,11,False,Wednesday,60+,Rural,New Patient,No Reminder,Failed,Confirmed,Wednesday,Weekday,Monsoon,0,9,1,1,Wednesday
+A0221,P009,2026-03-06,Ent,Attended,5,False,Friday,45-59,South,6+ Visits,WhatsApp,Failed,Confirmed,Friday,Weekday,Summer,0,3,0,0,Friday
+A0222,P233,2026-06-26,Orthopedics,Attended,18,False,Friday,30-44,Rural,1-2 Visits,SMS,Failed,Rescheduled,Friday,Weekday,Monsoon,0,6,1,0,Friday
+A0223,P099,2026-01-03,General Medicine,Attended,27,False,Saturday,18-29,South,3-5 Visits,WhatsApp,Failed,Confirmed,Saturday,Weekend,Winter,0,1,1,0,Saturday
+A0224,P147,2026-05-22,Cardiology,Attended,6,False,Friday,18-29,North,3-5 Visits,Phone Call,Sent,Confirmed,Friday,Weekday,Summer,0,5,0,0,Friday
+A0225,P208,2026-06-07,Dermatology,Attended,24,False,Sunday,60+,East,3-5 Visits,WhatsApp,Not Applicable,No Response,Sunday,Weekend,Monsoon,0,6,1,0,Sunday
+A0226,P131,2026-05-26,Pediatrics,Attended,2,False,Tuesday,45-59,West,3-5 Visits,WhatsApp,Sent,No Response,Tuesday,Weekday,Summer,0,5,0,0,Tuesday
+A0227,P152,2026-06-02,Cardiology,Attended,15,False,Tuesday,18-29,East,3-5 Visits,WhatsApp,Sent,Confirmed,Tuesday,Weekday,Monsoon,0,6,1,0,Tuesday
+A0228,P054,2026-07-12,Orthopedics,Attended,17,False,Sunday,18-29,Rural,New Patient,Email,Sent,Confirmed,Sunday,Weekend,Monsoon,0,7,1,1,Sunday
+A0229,P120,2026-03-14,Pediatrics,Attended,15,False,Saturday,60+,East,New Patient,Phone Call,Sent,Rescheduled,Saturday,Weekend,Summer,0,3,1,1,Saturday
+A0231,P116,2026-07-06,Dermatology,Attended,6,False,Monday,18-29,North,1-2 Visits,WhatsApp,Failed,Confirmed,Monday,Weekday,Monsoon,0,7,0,0,Monday
+A0232,P075,2026-03-02,General Medicine,Attended,3,False,Monday,60+,Rural,1-2 Visits,WhatsApp,Failed,No Response,Monday,Weekday,Summer,0,3,0,0,Monday
+A0233,P113,2026-07-17,Pediatrics,Attended,26,False,Friday,45-59,East,1-2 Visits,SMS,Not Applicable,Confirmed,Friday,Weekday,Monsoon,0,7,1,0,Friday
+A0234,P104,2026-01-11,General Medicine,No-show,24,False,Sunday,45-59,East,6+ Visits,Email,Sent,Confirmed,Sunday,Weekend,Winter,1,1,1,0,Sunday
+A0235,P254,2026-03-03,Cardiology,No-show,29,False,Tuesday,60+,East,1-2 Visits,SMS,Not Applicable,No Response,Tuesday,Weekday,Summer,1,3,1,0,Tuesday
+A0236,P227,2026-08-14,Ent,Attended,7,False,Friday,18-29,South,3-5 Visits,Email,Failed,No Response,Friday,Weekday,Monsoon,0,8,1,0,Friday
+A0238,P099,2026-07-18,Ent,Attended,12,False,Saturday,18-29,South,3-5 Visits,Phone Call,Failed,Rescheduled,Saturday,Weekend,Monsoon,0,7,1,0,Saturday
+A0239,P153,2026-02-21,Pediatrics,Attended,16,False,Saturday,45-59,West,1-2 Visits,No Reminder,Sent,Rescheduled,Saturday,Weekend,Winter,0,2,1,0,Saturday
+A0240,P194,2026-09-17,Ent,No-show,16,False,Thursday,60+,East,1-2 Visits,No Reminder,Sent,Rescheduled,Thursday,Weekday,Monsoon,1,9,1,0,Thursday
+A0241,P163,2026-02-28,Cardiology,No-show,4,False,Saturday,45-59,North,3-5 Visits,WhatsApp,Failed,No Response,Saturday,Weekend,Winter,1,2,0,0,Saturday
+A0242,P208,2026-03-13,General Medicine,Attended,5,False,Friday,60+,East,3-5 Visits,SMS,Not Applicable,Confirmed,Friday,Weekday,Summer,0,3,0,0,Friday
+A0243,P169,2026-05-28,Pediatrics,Attended,18,False,Thursday,45-59,South,1-2 Visits,Phone Call,Not Applicable,Rescheduled,Thursday,Weekday,Summer,0,5,1,0,Thursday
+A0244,P161,2026-03-04,General Medicine,Attended,12,False,Wednesday,60+,West,3-5 Visits,Email,Failed,Rescheduled,Wednesday,Weekday,Summer,0,3,1,0,Wednesday
+A0245,P068,2026-08-31,Pediatrics,Attended,24,False,Monday,60+,West,New Patient,WhatsApp,Not Applicable,No Response,Monday,Weekday,Monsoon,0,8,1,1,Monday
+A0246,P289,2026-04-17,General Medicine,No-show,27,False,Friday,45-59,East,New Patient,Phone Call,Failed,No Response,Friday,Weekday,Summer,1,4,1,1,Friday
+A0247,P277,2026-08-14,Dermatology,Attended,25,False,Friday,18-29,East,3-5 Visits,Phone Call,Not Applicable,Confirmed,Friday,Weekday,Monsoon,0,8,1,0,Friday
+A0248,P135,2026-08-06,General Medicine,Attended,13,False,Thursday,60+,East,New Patient,Email,Failed,Confirmed,Thursday,Weekday,Monsoon,0,8,1,1,Thursday
+A0249,P195,2026-08-29,Ent,Attended,30,False,Saturday,18-29,West,New Patient,Phone Call,Not Applicable,No Response,Saturday,Weekend,Monsoon,0,8,1,1,Saturday
+A0250,P128,2026-09-16,Dermatology,Attended,21,False,Wednesday,60+,Rural,3-5 Visits,SMS,Sent,Rescheduled,Wednesday,Weekday,Monsoon,0,9,1,0,Wednesday
+A0251,P033,2026-09-19,General Medicine,Attended,3,False,Saturday,18-29,West,3-5 Visits,SMS,Failed,Rescheduled,Saturday,Weekend,Monsoon,0,9,0,0,Saturday
+A0252,P176,2026-01-05,Pediatrics,Attended,27,False,Monday,18-29,North,1-2 Visits,SMS,Failed,Rescheduled,Monday,Weekday,Winter,0,1,1,0,Monday
+A0254,P238,2026-02-23,Pediatrics,No-show,7,False,Monday,60+,Rural,3-5 Visits,SMS,Failed,Rescheduled,Monday,Weekday,Winter,1,2,1,0,Monday
+A0255,P158,2026-02-16,Orthopedics,Attended,24,False,Monday,30-44,South,6+ Visits,Email,Failed,Rescheduled,Monday,Weekday,Winter,0,2,1,0,Monday
+A0257,P230,2026-06-26,Pediatrics,No-show,26,False,Friday,60+,East,3-5 Visits,No Reminder,Sent,Rescheduled,Friday,Weekday,Monsoon,1,6,1,0,Friday
+A0258,P051,2026-01-09,Dermatology,No-show,5,False,Friday,30-44,South,New Patient,Phone Call,Sent,No Response,Friday,Weekday,Winter,1,1,0,1,Friday
+A0259,P264,2026-04-09,Pediatrics,Attended,30,False,Thursday,60+,West,New Patient,Email,Not Applicable,Rescheduled,Thursday,Weekday,Summer,0,4,1,1,Thursday
+A0260,P283,2026-01-20,Orthopedics,Attended,5,False,Tuesday,18-29,South,1-2 Visits,No Reminder,Sent,Confirmed,Tuesday,Weekday,Winter,0,1,0,0,Tuesday
+A0261,P027,2026-08-29,Ent,Attended,23,False,Saturday,45-59,North,6+ Visits,Phone Call,Not Applicable,Rescheduled,Saturday,Weekend,Monsoon,0,8,1,0,Saturday
+A0262,P226,2026-03-02,Dermatology,Attended,27,False,Monday,60+,South,6+ Visits,SMS,Sent,Rescheduled,Monday,Weekday,Summer,0,3,1,0,Monday
+A0263,P277,2026-06-27,Orthopedics,Attended,20,False,Saturday,18-29,East,3-5 Visits,WhatsApp,Not Applicable,No Response,Saturday,Weekend,Monsoon,0,6,1,0,Saturday
+A0264,P286,2026-03-03,Ent,Attended,29,False,Tuesday,30-44,Rural,6+ Visits,WhatsApp,Sent,No Response,Tuesday,Weekday,Summer,0,3,1,0,Tuesday
+A0265,P097,2026-05-25,Dermatology,Attended,2,False,Monday,18-29,East,1-2 Visits,SMS,Sent,No Response,Monday,Weekday,Summer,0,5,0,0,Monday
+A0266,P284,2026-08-04,General Medicine,No-show,27,False,Tuesday,60+,Rural,6+ Visits,WhatsApp,Not Applicable,Rescheduled,Tuesday,Weekday,Monsoon,1,8,1,0,Tuesday
+A0267,P147,2026-01-03,Cardiology,Attended,2,False,Saturday,18-29,North,3-5 Visits,WhatsApp,Failed,Rescheduled,Saturday,Weekend,Winter,0,1,0,0,Saturday
+A0268,P004,2026-06-09,Cardiology,Attended,12,False,Tuesday,60+,Rural,1-2 Visits,SMS,Failed,Confirmed,Tuesday,Weekday,Monsoon,0,6,1,0,Tuesday
+A0271,P049,2026-04-30,Cardiology,No-show,15,False,Thursday,30-44,North,6+ Visits,Phone Call,Failed,No Response,Thursday,Weekday,Summer,1,4,1,0,Thursday
+A0273,P172,2026-03-09,Ent,Attended,28,False,Monday,60+,Rural,3-5 Visits,Email,Failed,No Response,Monday,Weekday,Summer,0,3,1,0,Monday
+A0275,P158,2026-09-24,Orthopedics,Attended,7,False,Thursday,30-44,South,6+ Visits,Phone Call,Sent,Rescheduled,Thursday,Weekday,Monsoon,0,9,1,0,Thursday
+A0276,P046,2026-04-15,Orthopedics,Attended,22,False,Wednesday,30-44,North,6+ Visits,WhatsApp,Not Applicable,No Response,Wednesday,Weekday,Summer,0,4,1,0,Wednesday
+A0277,P006,2026-05-03,Cardiology,Attended,7,False,Sunday,60+,North,New Patient,No Reminder,Failed,Rescheduled,Sunday,Weekend,Summer,0,5,1,1,Sunday
+A0278,P099,2026-01-29,Orthopedics,Attended,29,False,Thursday,18-29,South,3-5 Visits,SMS,Sent,Rescheduled,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0279,P233,2026-05-17,Cardiology,Attended,24,False,Sunday,30-44,Rural,1-2 Visits,Email,Not Applicable,No Response,Sunday,Weekend,Summer,0,5,1,0,Sunday
+A0280,P037,2026-07-14,Orthopedics,Attended,5,False,Tuesday,45-59,West,New Patient,No Reminder,Failed,Confirmed,Tuesday,Weekday,Monsoon,0,7,0,1,Tuesday
+A0281,P280,2026-08-14,Pediatrics,No-show,13,False,Friday,18-29,East,New Patient,No Reminder,Sent,Rescheduled,Friday,Weekday,Monsoon,1,8,1,1,Friday
+A0282,P181,2026-06-19,Ent,Attended,2,False,Friday,30-44,South,1-2 Visits,No Reminder,Not Applicable,No Response,Friday,Weekday,Monsoon,0,6,0,0,Friday
+A0283,P095,2026-01-09,Orthopedics,Attended,9,False,Friday,60+,East,1-2 Visits,SMS,Failed,Rescheduled,Friday,Weekday,Winter,0,1,1,0,Friday
+A0284,P099,2026-02-09,Dermatology,No-show,2,False,Monday,18-29,South,3-5 Visits,Phone Call,Not Applicable,Rescheduled,Monday,Weekday,Winter,1,2,0,0,Monday
+A0285,P188,2026-01-25,Ent,Attended,26,False,Sunday,18-29,North,New Patient,SMS,Not Applicable,Rescheduled,Sunday,Weekend,Winter,0,1,1,1,Sunday
+A0286,P116,2026-09-18,Ent,Attended,11,False,Friday,18-29,North,1-2 Visits,Phone Call,Sent,Rescheduled,Friday,Weekday,Monsoon,0,9,1,0,Friday
+A0287,P191,2026-08-14,Orthopedics,Attended,16,False,Friday,30-44,Rural,6+ Visits,No Reminder,Sent,Rescheduled,Friday,Weekday,Monsoon,0,8,1,0,Friday
+A0288,P253,2026-05-04,General Medicine,Attended,26,False,Monday,45-59,East,New Patient,No Reminder,Failed,Confirmed,Monday,Weekday,Summer,0,5,1,1,Monday
+A0289,P161,2026-02-07,Orthopedics,Attended,30,False,Saturday,60+,West,3-5 Visits,Email,Sent,Confirmed,Saturday,Weekend,Winter,0,2,1,0,Saturday
+A0291,P128,2026-06-25,Dermatology,Attended,30,False,Thursday,60+,Rural,3-5 Visits,No Reminder,Not Applicable,Confirmed,Thursday,Weekday,Monsoon,0,6,1,0,Thursday
+A0292,P018,2026-03-31,Ent,Attended,4,False,Tuesday,18-29,East,3-5 Visits,WhatsApp,Not Applicable,Confirmed,Tuesday,Weekday,Summer,0,3,0,0,Tuesday
+A0294,P223,2026-06-25,Cardiology,No-show,19,False,Thursday,30-44,Rural,New Patient,SMS,Not Applicable,Rescheduled,Thursday,Weekday,Monsoon,1,6,1,1,Thursday
+A0295,P054,2026-03-22,Pediatrics,Attended,24,False,Sunday,18-29,Rural,New Patient,Email,Sent,Rescheduled,Sunday,Weekend,Summer,0,3,1,1,Sunday
+A0296,P058,2026-04-24,Ent,Attended,30,False,Friday,18-29,West,1-2 Visits,WhatsApp,Not Applicable,No Response,Friday,Weekday,Summer,0,4,1,0,Friday
+A0297,P174,2026-02-09,Orthopedics,Attended,8,False,Monday,30-44,East,6+ Visits,Phone Call,Sent,No Response,Monday,Weekday,Winter,0,2,1,0,Monday
+A0298,P280,2026-08-12,Cardiology,Attended,30,False,Wednesday,18-29,East,New Patient,SMS,Failed,No Response,Wednesday,Weekday,Monsoon,0,8,1,1,Wednesday
+A0299,P114,2026-04-25,Pediatrics,Attended,29,False,Saturday,45-59,Rural,1-2 Visits,SMS,Failed,Rescheduled,Saturday,Weekend,Summer,0,4,1,0,Saturday
+A0300,P288,2026-07-05,Orthopedics,Attended,20,False,Sunday,45-59,Rural,6+ Visits,Phone Call,Not Applicable,Confirmed,Sunday,Weekend,Monsoon,0,7,1,0,Sunday
+A0302,P127,2026-02-09,Orthopedics,Attended,19,False,Monday,60+,North,1-2 Visits,No Reminder,Sent,Rescheduled,Monday,Weekday,Winter,0,2,1,0,Monday
+A0303,P155,2026-02-09,Dermatology,Attended,6,False,Monday,18-29,Rural,3-5 Visits,Email,Sent,No Response,Monday,Weekday,Winter,0,2,0,0,Monday
+A0304,P273,2026-08-25,Dermatology,Attended,30,False,Tuesday,30-44,South,1-2 Visits,WhatsApp,Not Applicable,No Response,Tuesday,Weekday,Monsoon,0,8,1,0,Tuesday
+A0305,P104,2026-09-19,General Medicine,Attended,21,False,Saturday,45-59,East,6+ Visits,No Reminder,Not Applicable,No Response,Saturday,Weekend,Monsoon,0,9,1,0,Saturday
+A0306,P299,2026-08-04,Cardiology,Attended,3,False,Tuesday,45-59,Rural,3-5 Visits,Email,Failed,Rescheduled,Tuesday,Weekday,Monsoon,0,8,0,0,Tuesday
+A0307,P246,2026-05-27,Pediatrics,Attended,12,False,Wednesday,18-29,East,6+ Visits,Phone Call,Failed,No Response,Wednesday,Weekday,Summer,0,5,1,0,Wednesday
+A0308,P176,2026-06-17,Orthopedics,No-show,12,False,Wednesday,18-29,North,1-2 Visits,WhatsApp,Failed,No Response,Wednesday,Weekday,Monsoon,1,6,1,0,Wednesday
+A0309,P039,2026-04-02,Dermatology,Attended,30,False,Thursday,18-29,East,6+ Visits,WhatsApp,Not Applicable,Rescheduled,Thursday,Weekday,Summer,0,4,1,0,Thursday
+A0310,P170,2026-02-28,Cardiology,Attended,9,False,Saturday,18-29,South,3-5 Visits,WhatsApp,Not Applicable,Confirmed,Saturday,Weekend,Winter,0,2,1,0,Saturday
+A0311,P247,2026-02-28,General Medicine,Attended,17,False,Saturday,45-59,Rural,6+ Visits,No Reminder,Not Applicable,Rescheduled,Saturday,Weekend,Winter,0,2,1,0,Saturday
+A0312,P026,2026-06-18,Ent,Attended,16,False,Thursday,60+,Rural,New Patient,SMS,Failed,Rescheduled,Thursday,Weekday,Monsoon,0,6,1,1,Thursday
+A0313,P013,2026-09-26,Dermatology,Attended,19,False,Saturday,45-59,West,6+ Visits,No Reminder,Not Applicable,Rescheduled,Saturday,Weekend,Monsoon,0,9,1,0,Saturday
+A0314,P036,2026-02-14,General Medicine,Attended,19,False,Saturday,45-59,North,1-2 Visits,Email,Sent,Rescheduled,Saturday,Weekend,Winter,0,2,1,0,Saturday
+A0315,P173,2026-06-30,Orthopedics,Attended,12,False,Tuesday,45-59,South,3-5 Visits,SMS,Not Applicable,Confirmed,Tuesday,Weekday,Monsoon,0,6,1,0,Tuesday
+A0316,P020,2026-06-19,Pediatrics,Attended,16,False,Friday,60+,West,6+ Visits,Email,Not Applicable,No Response,Friday,Weekday,Monsoon,0,6,1,0,Friday
+A0317,P264,2026-07-10,Dermatology,No-show,21,False,Friday,60+,West,New Patient,SMS,Not Applicable,Rescheduled,Friday,Weekday,Monsoon,1,7,1,1,Friday
+A0319,P143,2026-07-07,Orthopedics,No-show,0,False,Tuesday,45-59,South,New Patient,WhatsApp,Not Applicable,No Response,Tuesday,Weekday,Monsoon,1,7,0,1,Tuesday
+A0320,P092,2026-01-07,Ent,No-show,0,False,Wednesday,30-44,North,6+ Visits,Phone Call,Sent,No Response,Wednesday,Weekday,Winter,1,1,0,0,Wednesday
+A0321,P288,2026-05-13,Cardiology,Attended,14,False,Wednesday,45-59,Rural,6+ Visits,WhatsApp,Sent,No Response,Wednesday,Weekday,Summer,0,5,1,0,Wednesday
+A0323,P051,2026-02-14,Dermatology,Attended,16,False,Saturday,30-44,South,New Patient,SMS,Failed,Rescheduled,Saturday,Weekend,Winter,0,2,1,1,Saturday
+A0326,P063,2026-01-23,Pediatrics,No-show,7,False,Friday,60+,West,New Patient,Email,Not Applicable,No Response,Friday,Weekday,Winter,1,1,1,1,Friday
+A0328,P125,2026-06-07,Dermatology,Attended,26,False,Sunday,60+,North,3-5 Visits,WhatsApp,Failed,No Response,Sunday,Weekend,Monsoon,0,6,1,0,Sunday
+A0329,P150,2026-02-08,Pediatrics,Attended,12,False,Sunday,60+,West,6+ Visits,SMS,Failed,No Response,Sunday,Weekend,Winter,0,2,1,0,Sunday
+A0330,P058,2026-03-23,Cardiology,Attended,22,False,Monday,18-29,West,1-2 Visits,Email,Sent,Confirmed,Monday,Weekday,Summer,0,3,1,0,Monday
+A0331,P180,2026-09-15,General Medicine,Attended,13,False,Tuesday,60+,West,6+ Visits,No Reminder,Failed,No Response,Tuesday,Weekday,Monsoon,0,9,1,0,Tuesday
+A0332,P170,2026-07-25,General Medicine,Attended,7,False,Saturday,18-29,South,3-5 Visits,Phone Call,Sent,Rescheduled,Saturday,Weekend,Monsoon,0,7,1,0,Saturday
+A0333,P271,2026-03-18,Cardiology,Attended,7,False,Wednesday,18-29,South,New Patient,SMS,Sent,Rescheduled,Wednesday,Weekday,Summer,0,3,1,1,Wednesday
+A0335,P101,2026-08-12,Orthopedics,Attended,25,False,Wednesday,45-59,East,6+ Visits,No Reminder,Failed,No Response,Wednesday,Weekday,Monsoon,0,8,1,0,Wednesday
+A0336,P264,2026-01-13,Cardiology,No-show,14,False,Tuesday,60+,West,New Patient,WhatsApp,Failed,Rescheduled,Tuesday,Weekday,Winter,1,1,1,1,Tuesday
+A0340,P005,2026-08-21,Dermatology,Attended,4,False,Friday,60+,West,New Patient,WhatsApp,Failed,Confirmed,Friday,Weekday,Monsoon,0,8,0,1,Friday
+A0342,P196,2026-08-11,Orthopedics,No-show,27,False,Tuesday,18-29,South,1-2 Visits,Phone Call,Sent,Rescheduled,Tuesday,Weekday,Monsoon,1,8,1,0,Tuesday
+A0343,P262,2026-07-07,Dermatology,Attended,24,False,Tuesday,30-44,South,1-2 Visits,No Reminder,Sent,Confirmed,Tuesday,Weekday,Monsoon,0,7,1,0,Tuesday
+A0344,P047,2026-06-12,Cardiology,Attended,28,False,Friday,60+,South,1-2 Visits,WhatsApp,Not Applicable,Rescheduled,Friday,Weekday,Monsoon,0,6,1,0,Friday
+A0345,P144,2026-03-15,Ent,No-show,15,False,Sunday,30-44,North,New Patient,SMS,Failed,Confirmed,Sunday,Weekend,Summer,1,3,1,1,Sunday
+A0346,P269,2026-08-21,Cardiology,Attended,22,False,Friday,30-44,South,1-2 Visits,SMS,Sent,No Response,Friday,Weekday,Monsoon,0,8,1,0,Friday
+A0347,P124,2026-08-12,Cardiology,Attended,1,False,Wednesday,60+,Rural,6+ Visits,SMS,Not Applicable,No Response,Wednesday,Weekday,Monsoon,0,8,0,0,Wednesday
+A0348,P106,2026-03-01,Pediatrics,Attended,21,False,Sunday,30-44,North,3-5 Visits,Phone Call,Failed,No Response,Sunday,Weekend,Summer,0,3,1,0,Sunday
+A0349,P158,2026-08-10,Pediatrics,Attended,17,False,Monday,30-44,South,6+ Visits,WhatsApp,Sent,No Response,Monday,Weekday,Monsoon,0,8,1,0,Monday
+A0350,P147,2026-02-06,Dermatology,Attended,30,False,Friday,18-29,North,3-5 Visits,WhatsApp,Failed,No Response,Friday,Weekday,Winter,0,2,1,0,Friday
+A0351,P145,2026-07-15,Orthopedics,No-show,16,False,Wednesday,60+,Rural,3-5 Visits,Phone Call,Failed,Rescheduled,Wednesday,Weekday,Monsoon,1,7,1,0,Wednesday
+A0352,P120,2026-08-30,Dermatology,Attended,29,False,Sunday,60+,East,New Patient,SMS,Sent,No Response,Sunday,Weekend,Monsoon,0,8,1,1,Sunday
+A0353,P275,2026-08-07,General Medicine,Attended,6,False,Friday,45-59,North,6+ Visits,SMS,Sent,No Response,Friday,Weekday,Monsoon,0,8,0,0,Friday
+A0354,P092,2026-07-11,Cardiology,Attended,12,False,Saturday,30-44,North,6+ Visits,No Reminder,Sent,No Response,Saturday,Weekend,Monsoon,0,7,1,0,Saturday
+A0355,P058,2026-01-17,Ent,Attended,17,False,Saturday,18-29,West,1-2 Visits,Email,Failed,No Response,Saturday,Weekend,Winter,0,1,1,0,Saturday
+A0357,P117,2026-07-12,Cardiology,Attended,13,False,Sunday,60+,West,1-2 Visits,WhatsApp,Not Applicable,No Response,Sunday,Weekend,Monsoon,0,7,1,0,Sunday
+A0358,P279,2026-01-22,Dermatology,Attended,29,False,Thursday,60+,West,3-5 Visits,WhatsApp,Failed,No Response,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0359,P127,2026-04-30,Ent,Attended,17,False,Thursday,60+,North,1-2 Visits,Email,Sent,Rescheduled,Thursday,Weekday,Summer,0,4,1,0,Thursday
+A0360,P129,2026-07-29,Ent,Attended,12,False,Wednesday,60+,North,New Patient,No Reminder,Failed,Confirmed,Wednesday,Weekday,Monsoon,0,7,1,1,Wednesday
+A0361,P058,2026-09-27,Ent,No-show,10,False,Sunday,18-29,West,1-2 Visits,Email,Not Applicable,Rescheduled,Sunday,Weekend,Monsoon,1,9,1,0,Sunday
+A0362,P122,2026-07-11,Dermatology,No-show,20,False,Saturday,30-44,Rural,3-5 Visits,SMS,Not Applicable,No Response,Saturday,Weekend,Monsoon,1,7,1,0,Saturday
+A0363,P001,2026-06-24,Cardiology,Attended,29,False,Wednesday,60+,West,1-2 Visits,SMS,Sent,Rescheduled,Wednesday,Weekday,Monsoon,0,6,1,0,Wednesday
+A0364,P239,2026-07-23,Dermatology,Attended,20,False,Thursday,30-44,West,New Patient,WhatsApp,Sent,Rescheduled,Thursday,Weekday,Monsoon,0,7,1,1,Thursday
+A0365,P290,2026-06-13,Pediatrics,Attended,15,False,Saturday,60+,South,3-5 Visits,Phone Call,Not Applicable,No Response,Saturday,Weekend,Monsoon,0,6,1,0,Saturday
+A0366,P096,2026-09-08,Pediatrics,Attended,22,False,Tuesday,30-44,West,New Patient,WhatsApp,Not Applicable,Confirmed,Tuesday,Weekday,Monsoon,0,9,1,1,Tuesday
+A0367,P126,2026-08-15,Dermatology,Attended,16,False,Saturday,18-29,Rural,New Patient,Phone Call,Not Applicable,Confirmed,Saturday,Weekend,Monsoon,0,8,1,1,Saturday
+A0368,P118,2026-01-07,Ent,Attended,7,False,Wednesday,30-44,South,1-2 Visits,Email,Sent,Rescheduled,Wednesday,Weekday,Winter,0,1,1,0,Wednesday
+A0369,P048,2026-01-29,Cardiology,Attended,18,False,Thursday,60+,Rural,6+ Visits,SMS,Not Applicable,No Response,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0370,P089,2026-02-02,Dermatology,Attended,19,False,Monday,45-59,East,6+ Visits,Phone Call,Not Applicable,Rescheduled,Monday,Weekday,Winter,0,2,1,0,Monday
+A0373,P189,2026-02-27,General Medicine,Attended,19,False,Friday,60+,South,1-2 Visits,Phone Call,Failed,No Response,Friday,Weekday,Winter,0,2,1,0,Friday
+A0374,P192,2026-01-26,Pediatrics,No-show,9,False,Monday,60+,East,3-5 Visits,WhatsApp,Not Applicable,No Response,Monday,Weekday,Winter,1,1,1,0,Monday
+A0375,P069,2026-08-14,Ent,Attended,11,False,Friday,18-29,East,3-5 Visits,WhatsApp,Failed,Confirmed,Friday,Weekday,Monsoon,0,8,1,0,Friday
+A0376,P278,2026-01-04,Orthopedics,Attended,30,False,Sunday,60+,West,New Patient,WhatsApp,Failed,No Response,Sunday,Weekend,Winter,0,1,1,1,Sunday
+A0377,P247,2026-04-09,Ent,No-show,20,False,Thursday,45-59,Rural,6+ Visits,Email,Failed,Rescheduled,Thursday,Weekday,Summer,1,4,1,0,Thursday
+A0380,P144,2026-06-06,Dermatology,Attended,29,False,Saturday,30-44,North,New Patient,SMS,Failed,No Response,Saturday,Weekend,Monsoon,0,6,1,1,Saturday
+A0381,P086,2026-03-16,General Medicine,Attended,0,False,Monday,60+,South,6+ Visits,Email,Failed,Rescheduled,Monday,Weekday,Summer,0,3,0,0,Monday
+A0382,P185,2026-05-10,General Medicine,No-show,24,False,Sunday,60+,East,6+ Visits,WhatsApp,Sent,Confirmed,Sunday,Weekend,Summer,1,5,1,0,Sunday
+A0383,P285,2026-06-24,Cardiology,Attended,19,False,Wednesday,60+,Rural,New Patient,SMS,Not Applicable,Confirmed,Wednesday,Weekday,Monsoon,0,6,1,1,Wednesday
+A0384,P220,2026-03-25,Pediatrics,Attended,8,False,Wednesday,60+,South,3-5 Visits,Phone Call,Sent,Rescheduled,Wednesday,Weekday,Summer,0,3,1,0,Wednesday
+A0385,P069,2026-01-22,Orthopedics,Attended,21,False,Thursday,18-29,East,3-5 Visits,WhatsApp,Sent,Rescheduled,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0386,P047,2026-01-27,Dermatology,Attended,14,False,Tuesday,60+,South,1-2 Visits,SMS,Not Applicable,No Response,Tuesday,Weekday,Winter,0,1,1,0,Tuesday
+A0387,P094,2026-07-14,Orthopedics,Attended,0,False,Tuesday,18-29,East,6+ Visits,No Reminder,Failed,Confirmed,Tuesday,Weekday,Monsoon,0,7,0,0,Tuesday
+A0388,P238,2026-08-24,Ent,Attended,11,False,Monday,60+,Rural,3-5 Visits,Phone Call,Sent,Rescheduled,Monday,Weekday,Monsoon,0,8,1,0,Monday
+A0390,P218,2026-01-21,Ent,Attended,10,False,Wednesday,30-44,West,New Patient,SMS,Failed,No Response,Wednesday,Weekday,Winter,0,1,1,1,Wednesday
+A0391,P039,2026-03-25,Pediatrics,Attended,1,False,Wednesday,18-29,East,6+ Visits,No Reminder,Not Applicable,Rescheduled,Wednesday,Weekday,Summer,0,3,0,0,Wednesday
+A0392,P100,2026-09-19,Ent,Attended,15,False,Saturday,30-44,East,1-2 Visits,SMS,Sent,No Response,Saturday,Weekend,Monsoon,0,9,1,0,Saturday
+A0393,P289,2026-05-27,Orthopedics,Attended,8,False,Wednesday,45-59,East,New Patient,SMS,Failed,Confirmed,Wednesday,Weekday,Summer,0,5,1,1,Wednesday
+A0394,P254,2026-09-14,Orthopedics,Attended,14,False,Monday,60+,East,1-2 Visits,No Reminder,Failed,No Response,Monday,Weekday,Monsoon,0,9,1,0,Monday
+A0395,P222,2026-02-27,Ent,Attended,11,False,Friday,60+,Rural,3-5 Visits,SMS,Not Applicable,No Response,Friday,Weekday,Winter,0,2,1,0,Friday
+A0397,P250,2026-06-11,Pediatrics,Attended,12,False,Thursday,60+,Rural,New Patient,SMS,Sent,No Response,Thursday,Weekday,Monsoon,0,6,1,1,Thursday
+A0399,P246,2026-01-12,Dermatology,Attended,24,False,Monday,18-29,East,6+ Visits,SMS,Sent,Rescheduled,Monday,Weekday,Winter,0,1,1,0,Monday
+A0400,P100,2026-09-28,Orthopedics,Attended,24,False,Monday,30-44,East,1-2 Visits,Email,Not Applicable,Confirmed,Monday,Weekday,Monsoon,0,9,1,0,Monday
+A0401,P290,2026-07-27,Dermatology,Attended,7,False,Monday,60+,South,3-5 Visits,SMS,Failed,Confirmed,Monday,Weekday,Monsoon,0,7,1,0,Monday
+A0402,P180,2026-01-27,Cardiology,Attended,7,False,Tuesday,60+,West,6+ Visits,SMS,Failed,Rescheduled,Tuesday,Weekday,Winter,0,1,1,0,Tuesday
+A0403,P223,2026-03-13,Dermatology,No-show,26,False,Friday,30-44,Rural,New Patient,No Reminder,Failed,Confirmed,Friday,Weekday,Summer,1,3,1,1,Friday
+A0404,P250,2026-03-01,Cardiology,Attended,29,False,Sunday,60+,Rural,New Patient,WhatsApp,Sent,Rescheduled,Sunday,Weekend,Summer,0,3,1,1,Sunday
+A0405,P147,2026-05-25,Ent,Attended,11,False,Monday,18-29,North,3-5 Visits,WhatsApp,Failed,Rescheduled,Monday,Weekday,Summer,0,5,1,0,Monday
+A0409,P016,2026-01-27,Dermatology,Attended,9,False,Tuesday,30-44,North,3-5 Visits,WhatsApp,Failed,Rescheduled,Tuesday,Weekday,Winter,0,1,1,0,Tuesday
+A0410,P280,2026-06-23,Orthopedics,No-show,29,False,Tuesday,18-29,East,New Patient,No Reminder,Not Applicable,No Response,Tuesday,Weekday,Monsoon,1,6,1,1,Tuesday
+A0411,P247,2026-02-19,General Medicine,Attended,18,False,Thursday,45-59,Rural,6+ Visits,WhatsApp,Not Applicable,No Response,Thursday,Weekday,Winter,0,2,1,0,Thursday
+A0412,P258,2026-07-18,Ent,Attended,10,False,Saturday,30-44,South,6+ Visits,No Reminder,Sent,Confirmed,Saturday,Weekend,Monsoon,0,7,1,0,Saturday
+A0413,P160,2026-06-30,Orthopedics,Attended,6,False,Tuesday,60+,Rural,New Patient,SMS,Sent,Rescheduled,Tuesday,Weekday,Monsoon,0,6,0,1,Tuesday
+A0414,P152,2026-01-24,Cardiology,Attended,10,False,Saturday,18-29,East,3-5 Visits,WhatsApp,Failed,Rescheduled,Saturday,Weekend,Winter,0,1,1,0,Saturday
+A0415,P178,2026-02-15,General Medicine,Attended,30,False,Sunday,30-44,West,1-2 Visits,WhatsApp,Failed,Confirmed,Sunday,Weekend,Winter,0,2,1,0,Sunday
+A0416,P163,2026-01-15,Dermatology,Attended,16,False,Thursday,45-59,North,3-5 Visits,Email,Not Applicable,No Response,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0417,P033,2026-06-02,General Medicine,No-show,0,False,Tuesday,18-29,West,3-5 Visits,No Reminder,Failed,Rescheduled,Tuesday,Weekday,Monsoon,1,6,0,0,Tuesday
+A0418,P179,2026-08-10,General Medicine,Attended,25,False,Monday,18-29,Rural,3-5 Visits,No Reminder,Sent,No Response,Monday,Weekday,Monsoon,0,8,1,0,Monday
+A0419,P101,2026-07-25,Pediatrics,Attended,28,False,Saturday,45-59,East,6+ Visits,WhatsApp,Sent,Rescheduled,Saturday,Weekend,Monsoon,0,7,1,0,Saturday
+A0420,P268,2026-09-30,General Medicine,Attended,20,False,Wednesday,60+,North,New Patient,SMS,Sent,Rescheduled,Wednesday,Weekday,Monsoon,0,9,1,1,Wednesday
+A0422,P168,2026-08-16,Orthopedics,Attended,7,False,Sunday,45-59,North,New Patient,SMS,Sent,Rescheduled,Sunday,Weekend,Monsoon,0,8,1,1,Sunday
+A0423,P043,2026-01-09,Dermatology,Attended,22,False,Friday,45-59,East,New Patient,No Reminder,Not Applicable,No Response,Friday,Weekday,Winter,0,1,1,1,Friday
+A0424,P044,2026-06-15,Orthopedics,No-show,23,False,Monday,60+,West,1-2 Visits,Email,Not Applicable,No Response,Monday,Weekday,Monsoon,1,6,1,0,Monday
+A0425,P285,2026-08-02,Orthopedics,No-show,5,False,Sunday,60+,Rural,New Patient,WhatsApp,Sent,No Response,Sunday,Weekend,Monsoon,1,8,0,1,Sunday
+A0426,P012,2026-04-27,Cardiology,Attended,21,False,Monday,30-44,East,1-2 Visits,Phone Call,Failed,No Response,Monday,Weekday,Summer,0,4,1,0,Monday
+A0427,P095,2026-03-13,Orthopedics,No-show,17,False,Friday,60+,East,1-2 Visits,Email,Sent,Confirmed,Friday,Weekday,Summer,1,3,1,0,Friday
+A0428,P253,2026-03-05,Pediatrics,No-show,5,False,Thursday,45-59,East,New Patient,Phone Call,Not Applicable,Rescheduled,Thursday,Weekday,Summer,1,3,0,1,Thursday
+A0429,P242,2026-07-24,Pediatrics,Attended,4,False,Friday,45-59,Rural,New Patient,Email,Sent,Rescheduled,Friday,Weekday,Monsoon,0,7,0,1,Friday
+A0430,P035,2026-07-28,Cardiology,Attended,12,False,Tuesday,18-29,North,1-2 Visits,SMS,Not Applicable,Rescheduled,Tuesday,Weekday,Monsoon,0,7,1,0,Tuesday
+A0432,P090,2026-04-05,Dermatology,Attended,21,False,Sunday,18-29,Rural,6+ Visits,Phone Call,Sent,No Response,Sunday,Weekend,Summer,0,4,1,0,Sunday
+A0433,P264,2026-06-15,Dermatology,Attended,7,False,Monday,60+,West,New Patient,Email,Sent,Rescheduled,Monday,Weekday,Monsoon,0,6,1,1,Monday
+A0434,P093,2026-02-01,Orthopedics,Attended,8,False,Sunday,60+,West,New Patient,No Reminder,Failed,No Response,Sunday,Weekend,Winter,0,2,1,1,Sunday
+A0435,P090,2026-01-11,Orthopedics,Attended,16,False,Sunday,18-29,Rural,6+ Visits,Phone Call,Not Applicable,No Response,Sunday,Weekend,Winter,0,1,1,0,Sunday
+A0436,P115,2026-08-05,Ent,Attended,2,False,Wednesday,45-59,West,3-5 Visits,WhatsApp,Failed,Confirmed,Wednesday,Weekday,Monsoon,0,8,0,0,Wednesday
+A0437,P105,2026-04-12,Orthopedics,No-show,18,False,Sunday,30-44,West,6+ Visits,Email,Sent,Confirmed,Sunday,Weekend,Summer,1,4,1,0,Sunday
+A0438,P196,2026-09-24,Dermatology,Attended,10,False,Thursday,18-29,South,1-2 Visits,WhatsApp,Not Applicable,No Response,Thursday,Weekday,Monsoon,0,9,1,0,Thursday
+A0439,P114,2026-08-02,General Medicine,Attended,23,False,Sunday,45-59,Rural,1-2 Visits,SMS,Failed,Rescheduled,Sunday,Weekend,Monsoon,0,8,1,0,Sunday
+A0440,P075,2026-06-28,Pediatrics,Attended,16,False,Sunday,60+,Rural,1-2 Visits,WhatsApp,Failed,Rescheduled,Sunday,Weekend,Monsoon,0,6,1,0,Sunday
+A0441,P217,2026-03-29,General Medicine,Attended,20,False,Sunday,18-29,West,New Patient,WhatsApp,Failed,Confirmed,Sunday,Weekend,Summer,0,3,1,1,Sunday
+A0443,P249,2026-03-17,Dermatology,Attended,1,False,Tuesday,18-29,West,New Patient,SMS,Sent,Confirmed,Tuesday,Weekday,Summer,0,3,0,1,Tuesday
+A0444,P164,2026-02-15,General Medicine,Attended,30,False,Sunday,30-44,South,6+ Visits,WhatsApp,Sent,Confirmed,Sunday,Weekend,Winter,0,2,1,0,Sunday
+A0445,P192,2026-06-09,Ent,Attended,7,False,Tuesday,60+,East,3-5 Visits,No Reminder,Not Applicable,Confirmed,Tuesday,Weekday,Monsoon,0,6,1,0,Tuesday
+A0446,P227,2026-03-21,Cardiology,Attended,18,False,Saturday,18-29,South,3-5 Visits,Phone Call,Sent,Confirmed,Saturday,Weekend,Summer,0,3,1,0,Saturday
+A0447,P177,2026-03-27,Orthopedics,Attended,6,False,Friday,30-44,North,New Patient,WhatsApp,Not Applicable,Confirmed,Friday,Weekday,Summer,0,3,0,1,Friday
+A0448,P099,2026-04-02,Cardiology,No-show,27,False,Thursday,18-29,South,3-5 Visits,SMS,Failed,Rescheduled,Thursday,Weekday,Summer,1,4,1,0,Thursday
+A0450,P096,2026-06-10,Orthopedics,Attended,16,False,Wednesday,30-44,West,New Patient,Phone Call,Sent,Confirmed,Wednesday,Weekday,Monsoon,0,6,1,1,Wednesday
+A0451,P152,2026-07-21,General Medicine,Attended,5,False,Tuesday,18-29,East,3-5 Visits,SMS,Failed,Rescheduled,Tuesday,Weekday,Monsoon,0,7,0,0,Tuesday
+A0452,P151,2026-08-30,Pediatrics,No-show,18,False,Sunday,60+,North,1-2 Visits,Email,Sent,Rescheduled,Sunday,Weekend,Monsoon,1,8,1,0,Sunday
+A0453,P190,2026-01-02,Orthopedics,No-show,23,False,Friday,18-29,North,6+ Visits,SMS,Not Applicable,No Response,Friday,Weekday,Winter,1,1,1,0,Friday
+A0454,P224,2026-08-13,Ent,Attended,5,False,Thursday,18-29,North,6+ Visits,Email,Failed,Confirmed,Thursday,Weekday,Monsoon,0,8,0,0,Thursday
+A0455,P037,2026-08-21,Ent,Attended,27,False,Friday,45-59,West,New Patient,SMS,Sent,Confirmed,Friday,Weekday,Monsoon,0,8,1,1,Friday
+A0456,P268,2026-03-18,Ent,Attended,1,False,Wednesday,60+,North,New Patient,Phone Call,Failed,Confirmed,Wednesday,Weekday,Summer,0,3,0,1,Wednesday
+A0457,P183,2026-04-26,Ent,No-show,5,False,Sunday,30-44,North,6+ Visits,Phone Call,Failed,Confirmed,Sunday,Weekend,Summer,1,4,0,0,Sunday
+A0458,P013,2026-06-03,General Medicine,No-show,22,False,Wednesday,45-59,West,6+ Visits,SMS,Sent,No Response,Wednesday,Weekday,Monsoon,1,6,1,0,Wednesday
+A0459,P279,2026-04-13,Cardiology,Attended,4,False,Monday,60+,West,3-5 Visits,WhatsApp,Failed,Rescheduled,Monday,Weekday,Summer,0,4,0,0,Monday
+A0460,P217,2026-07-13,Orthopedics,Attended,18,False,Monday,18-29,West,New Patient,Phone Call,Failed,Rescheduled,Monday,Weekday,Monsoon,0,7,1,1,Monday
+A0462,P273,2026-03-31,Ent,No-show,3,False,Tuesday,30-44,South,1-2 Visits,Email,Failed,Confirmed,Tuesday,Weekday,Summer,1,3,0,0,Tuesday
+A0464,P084,2026-05-02,Pediatrics,No-show,25,False,Saturday,30-44,West,6+ Visits,Email,Failed,No Response,Saturday,Weekend,Summer,1,5,1,0,Saturday
+A0465,P217,2026-05-23,Pediatrics,Attended,16,False,Saturday,18-29,West,New Patient,No Reminder,Failed,No Response,Saturday,Weekend,Summer,0,5,1,1,Saturday
+A0466,P187,2026-04-16,Pediatrics,Attended,10,False,Thursday,60+,West,6+ Visits,SMS,Sent,Rescheduled,Thursday,Weekday,Summer,0,4,1,0,Thursday
+A0467,P019,2026-05-03,Ent,Attended,3,False,Sunday,60+,North,New Patient,SMS,Not Applicable,Confirmed,Sunday,Weekend,Summer,0,5,0,1,Sunday
+A0468,P177,2026-01-09,Pediatrics,Attended,25,False,Friday,30-44,North,New Patient,SMS,Sent,Confirmed,Friday,Weekday,Winter,0,1,1,1,Friday
+A0469,P100,2026-09-19,Dermatology,Attended,12,False,Saturday,30-44,East,1-2 Visits,WhatsApp,Sent,Confirmed,Saturday,Weekend,Monsoon,0,9,1,0,Saturday
+A0470,P233,2026-03-14,Orthopedics,No-show,19,False,Saturday,30-44,Rural,1-2 Visits,WhatsApp,Sent,Confirmed,Saturday,Weekend,Summer,1,3,1,0,Saturday
+A0471,P076,2026-08-11,Orthopedics,Attended,25,False,Tuesday,45-59,West,6+ Visits,No Reminder,Not Applicable,No Response,Tuesday,Weekday,Monsoon,0,8,1,0,Tuesday
+A0472,P265,2026-02-10,Ent,No-show,16,False,Tuesday,30-44,East,1-2 Visits,Email,Sent,Rescheduled,Tuesday,Weekday,Winter,1,2,1,0,Tuesday
+A0473,P284,2026-07-23,Dermatology,Attended,8,False,Thursday,60+,Rural,6+ Visits,Email,Sent,Rescheduled,Thursday,Weekday,Monsoon,0,7,1,0,Thursday
+A0475,P223,2026-06-27,General Medicine,Attended,22,False,Saturday,30-44,Rural,New Patient,Phone Call,Failed,Confirmed,Saturday,Weekend,Monsoon,0,6,1,1,Saturday
+A0476,P052,2026-03-25,Pediatrics,Attended,27,False,Wednesday,60+,Rural,1-2 Visits,WhatsApp,Sent,Rescheduled,Wednesday,Weekday,Summer,0,3,1,0,Wednesday
+A0477,P144,2026-04-21,Cardiology,Attended,13,False,Tuesday,30-44,North,New Patient,WhatsApp,Not Applicable,Rescheduled,Tuesday,Weekday,Summer,0,4,1,1,Tuesday
+A0478,P069,2026-09-08,General Medicine,Attended,18,False,Tuesday,18-29,East,3-5 Visits,SMS,Not Applicable,No Response,Tuesday,Weekday,Monsoon,0,9,1,0,Tuesday
+A0479,P099,2026-01-07,Cardiology,No-show,25,False,Wednesday,18-29,South,3-5 Visits,WhatsApp,Failed,Confirmed,Wednesday,Weekday,Winter,1,1,1,0,Wednesday
+A0480,P025,2026-03-25,Orthopedics,No-show,27,False,Wednesday,45-59,East,6+ Visits,SMS,Not Applicable,Rescheduled,Wednesday,Weekday,Summer,1,3,1,0,Wednesday
+A0481,P053,2026-07-27,Cardiology,Attended,2,False,Monday,30-44,West,6+ Visits,No Reminder,Not Applicable,Confirmed,Monday,Weekday,Monsoon,0,7,0,0,Monday
+A0482,P151,2026-01-22,Orthopedics,Attended,13,False,Thursday,60+,North,1-2 Visits,Email,Failed,Rescheduled,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0483,P144,2026-01-03,Dermatology,Attended,7,False,Saturday,30-44,North,New Patient,Phone Call,Sent,No Response,Saturday,Weekend,Winter,0,1,1,1,Saturday
+A0484,P057,2026-05-07,Dermatology,Attended,23,False,Thursday,30-44,East,1-2 Visits,Email,Failed,Confirmed,Thursday,Weekday,Summer,0,5,1,0,Thursday
+A0486,P109,2026-01-14,Ent,No-show,27,False,Wednesday,45-59,North,New Patient,No Reminder,Sent,Rescheduled,Wednesday,Weekday,Winter,1,1,1,1,Wednesday
+A0487,P181,2026-01-12,Pediatrics,No-show,0,False,Monday,30-44,South,1-2 Visits,WhatsApp,Not Applicable,No Response,Monday,Weekday,Winter,1,1,0,0,Monday
+A0488,P042,2026-03-28,General Medicine,No-show,9,False,Saturday,30-44,South,6+ Visits,Phone Call,Failed,No Response,Saturday,Weekend,Summer,1,3,1,0,Saturday
+A0489,P186,2026-01-12,Pediatrics,Attended,17,False,Monday,30-44,South,3-5 Visits,WhatsApp,Not Applicable,No Response,Monday,Weekday,Winter,0,1,1,0,Monday
+A0491,P122,2026-08-31,Pediatrics,No-show,7,False,Monday,30-44,Rural,3-5 Visits,SMS,Sent,Confirmed,Monday,Weekday,Monsoon,1,8,1,0,Monday
+A0492,P133,2026-05-02,Cardiology,No-show,0,False,Saturday,45-59,North,3-5 Visits,Email,Not Applicable,No Response,Saturday,Weekend,Summer,1,5,0,0,Saturday
+A0494,P215,2026-02-24,Ent,Attended,11,False,Tuesday,60+,East,3-5 Visits,Email,Not Applicable,Rescheduled,Tuesday,Weekday,Winter,0,2,1,0,Tuesday
+A0495,P221,2026-08-26,Dermatology,No-show,7,False,Wednesday,18-29,South,3-5 Visits,SMS,Not Applicable,Confirmed,Wednesday,Weekday,Monsoon,1,8,1,0,Wednesday
+A0496,P235,2026-06-22,Ent,Attended,23,False,Monday,45-59,South,6+ Visits,No Reminder,Sent,No Response,Monday,Weekday,Monsoon,0,6,1,0,Monday
+A0497,P146,2026-08-09,General Medicine,Attended,15,False,Sunday,45-59,East,3-5 Visits,WhatsApp,Failed,No Response,Sunday,Weekend,Monsoon,0,8,1,0,Sunday
+A0498,P239,2026-04-29,Orthopedics,Attended,17,False,Wednesday,30-44,West,New Patient,Email,Not Applicable,No Response,Wednesday,Weekday,Summer,0,4,1,1,Wednesday
+A0500,P009,2026-03-23,Cardiology,No-show,5,False,Monday,45-59,South,6+ Visits,No Reminder,Not Applicable,No Response,Monday,Weekday,Summer,1,3,0,0,Monday
+A0501,P074,2026-07-30,General Medicine,No-show,11,False,Thursday,30-44,Rural,3-5 Visits,Email,Failed,No Response,Thursday,Weekday,Monsoon,1,7,1,0,Thursday
+A0502,P253,2026-05-30,Dermatology,No-show,26,False,Saturday,45-59,East,New Patient,Email,Not Applicable,Rescheduled,Saturday,Weekend,Summer,1,5,1,1,Saturday
+A0503,P230,2026-02-06,Orthopedics,Attended,8,False,Friday,60+,East,3-5 Visits,WhatsApp,Not Applicable,Rescheduled,Friday,Weekday,Winter,0,2,1,0,Friday
+A0505,P174,2026-05-11,Cardiology,Attended,15,False,Monday,30-44,East,6+ Visits,SMS,Not Applicable,Confirmed,Monday,Weekday,Summer,0,5,1,0,Monday
+A0506,P141,2026-07-21,Pediatrics,Attended,23,False,Tuesday,45-59,East,6+ Visits,No Reminder,Sent,Confirmed,Tuesday,Weekday,Monsoon,0,7,1,0,Tuesday
+A0507,P168,2026-08-31,Dermatology,Attended,11,False,Monday,45-59,North,New Patient,SMS,Failed,Rescheduled,Monday,Weekday,Monsoon,0,8,1,1,Monday
+A0508,P170,2026-02-04,Ent,No-show,30,False,Wednesday,18-29,South,3-5 Visits,Email,Not Applicable,Confirmed,Wednesday,Weekday,Winter,1,2,1,0,Wednesday
+A0509,P283,2026-04-03,General Medicine,No-show,23,False,Friday,18-29,South,1-2 Visits,WhatsApp,Failed,Confirmed,Friday,Weekday,Summer,1,4,1,0,Friday
+A0510,P122,2026-07-26,Orthopedics,Attended,22,False,Sunday,30-44,Rural,3-5 Visits,Email,Failed,No Response,Sunday,Weekend,Monsoon,0,7,1,0,Sunday
+A0511,P194,2026-08-01,Orthopedics,Attended,13,False,Saturday,60+,East,1-2 Visits,Email,Not Applicable,No Response,Saturday,Weekend,Monsoon,0,8,1,0,Saturday
+A0512,P005,2026-06-08,Ent,No-show,12,False,Monday,60+,West,New Patient,Phone Call,Sent,Confirmed,Monday,Weekday,Monsoon,1,6,1,1,Monday
+A0513,P029,2026-01-24,Dermatology,Attended,24,False,Saturday,60+,North,New Patient,Phone Call,Failed,Confirmed,Saturday,Weekend,Winter,0,1,1,1,Saturday
+A0514,P165,2026-01-04,Pediatrics,No-show,30,False,Sunday,45-59,North,New Patient,Email,Failed,Rescheduled,Sunday,Weekend,Winter,1,1,1,1,Sunday
+A0516,P145,2026-01-20,Dermatology,Attended,2,False,Tuesday,60+,Rural,3-5 Visits,Email,Not Applicable,No Response,Tuesday,Weekday,Winter,0,1,0,0,Tuesday
+A0517,P217,2026-06-01,Ent,Attended,25,False,Monday,18-29,West,New Patient,Phone Call,Not Applicable,Confirmed,Monday,Weekday,Monsoon,0,6,1,1,Monday
+A0518,P132,2026-02-19,Cardiology,No-show,23,False,Thursday,18-29,East,3-5 Visits,WhatsApp,Not Applicable,Rescheduled,Thursday,Weekday,Winter,1,2,1,0,Thursday
+A0519,P292,2026-06-26,Pediatrics,No-show,29,False,Friday,45-59,South,New Patient,Email,Not Applicable,No Response,Friday,Weekday,Monsoon,1,6,1,1,Friday
+A0520,P070,2026-04-06,General Medicine,Attended,21,False,Monday,45-59,East,New Patient,No Reminder,Not Applicable,No Response,Monday,Weekday,Summer,0,4,1,1,Monday
+A0522,P275,2026-09-07,Dermatology,Attended,8,False,Monday,45-59,North,6+ Visits,Email,Failed,No Response,Monday,Weekday,Monsoon,0,9,1,0,Monday
+A0523,P182,2026-04-27,Cardiology,Attended,25,False,Monday,60+,West,1-2 Visits,WhatsApp,Sent,Confirmed,Monday,Weekday,Summer,0,4,1,0,Monday
+A0524,P167,2026-08-16,General Medicine,No-show,19,False,Sunday,30-44,North,New Patient,Email,Sent,Rescheduled,Sunday,Weekend,Monsoon,1,8,1,1,Sunday
+A0526,P202,2026-09-19,Dermatology,Attended,9,False,Saturday,18-29,South,1-2 Visits,Phone Call,Failed,Confirmed,Saturday,Weekend,Monsoon,0,9,1,0,Saturday
+A0527,P019,2026-08-31,General Medicine,No-show,18,False,Monday,60+,North,New Patient,No Reminder,Sent,No Response,Monday,Weekday,Monsoon,1,8,1,1,Monday
+A0528,P039,2026-07-05,Cardiology,Attended,2,False,Sunday,18-29,East,6+ Visits,Phone Call,Not Applicable,Rescheduled,Sunday,Weekend,Monsoon,0,7,0,0,Sunday
+A0529,P126,2026-09-03,Ent,Attended,23,False,Thursday,18-29,Rural,New Patient,Phone Call,Not Applicable,No Response,Thursday,Weekday,Monsoon,0,9,1,1,Thursday
+A0530,P173,2026-05-05,Cardiology,Attended,4,False,Tuesday,45-59,South,3-5 Visits,Email,Failed,Confirmed,Tuesday,Weekday,Summer,0,5,0,0,Tuesday
+A0532,P242,2026-05-11,Orthopedics,Attended,25,False,Monday,45-59,Rural,New Patient,No Reminder,Sent,No Response,Monday,Weekday,Summer,0,5,1,1,Monday
+A0533,P220,2026-08-25,General Medicine,Attended,26,False,Tuesday,60+,South,3-5 Visits,Phone Call,Sent,Confirmed,Tuesday,Weekday,Monsoon,0,8,1,0,Tuesday
+A0534,P126,2026-01-18,Ent,Attended,15,False,Sunday,18-29,Rural,New Patient,No Reminder,Not Applicable,Confirmed,Sunday,Weekend,Winter,0,1,1,1,Sunday
+A0536,P148,2026-01-21,General Medicine,Attended,14,False,Wednesday,18-29,West,1-2 Visits,No Reminder,Failed,Confirmed,Wednesday,Weekday,Winter,0,1,1,0,Wednesday
+A0537,P001,2026-08-13,Cardiology,No-show,2,False,Thursday,60+,West,1-2 Visits,Phone Call,Sent,Rescheduled,Thursday,Weekday,Monsoon,1,8,0,0,Thursday
+A0538,P190,2026-01-08,Orthopedics,Attended,11,False,Thursday,18-29,North,6+ Visits,Phone Call,Not Applicable,No Response,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0539,P191,2026-04-10,Pediatrics,Attended,8,False,Friday,30-44,Rural,6+ Visits,WhatsApp,Sent,Rescheduled,Friday,Weekday,Summer,0,4,1,0,Friday
+A0540,P117,2026-08-28,Dermatology,Attended,20,False,Friday,60+,West,1-2 Visits,No Reminder,Failed,Confirmed,Friday,Weekday,Monsoon,0,8,1,0,Friday
+A0541,P134,2026-03-28,Dermatology,No-show,11,False,Saturday,45-59,South,3-5 Visits,No Reminder,Not Applicable,Confirmed,Saturday,Weekend,Summer,1,3,1,0,Saturday
+A0543,P044,2026-01-02,Orthopedics,Attended,14,False,Friday,60+,West,1-2 Visits,SMS,Sent,Confirmed,Friday,Weekday,Winter,0,1,1,0,Friday
+A0544,P173,2026-02-10,Ent,Attended,1,False,Tuesday,45-59,South,3-5 Visits,Phone Call,Not Applicable,No Response,Tuesday,Weekday,Winter,0,2,0,0,Tuesday
+A0545,P160,2026-04-21,Cardiology,Attended,22,False,Tuesday,60+,Rural,New Patient,No Reminder,Failed,No Response,Tuesday,Weekday,Summer,0,4,1,1,Tuesday
+A0546,P173,2026-01-14,Orthopedics,Attended,30,False,Wednesday,45-59,South,3-5 Visits,SMS,Not Applicable,No Response,Wednesday,Weekday,Winter,0,1,1,0,Wednesday
+A0547,P149,2026-08-19,Orthopedics,Attended,17,False,Wednesday,45-59,East,3-5 Visits,WhatsApp,Sent,No Response,Wednesday,Weekday,Monsoon,0,8,1,0,Wednesday
+A0548,P080,2026-03-25,Cardiology,Attended,19,False,Wednesday,18-29,Rural,3-5 Visits,No Reminder,Sent,No Response,Wednesday,Weekday,Summer,0,3,1,0,Wednesday
+A0549,P213,2026-05-10,General Medicine,Attended,11,False,Sunday,60+,North,3-5 Visits,No Reminder,Sent,Rescheduled,Sunday,Weekend,Summer,0,5,1,0,Sunday
+A0550,P203,2026-08-19,Orthopedics,Attended,22,False,Wednesday,30-44,West,3-5 Visits,SMS,Sent,No Response,Wednesday,Weekday,Monsoon,0,8,1,0,Wednesday
+A0551,P252,2026-05-25,Dermatology,Attended,3,False,Monday,18-29,South,6+ Visits,Phone Call,Failed,Rescheduled,Monday,Weekday,Summer,0,5,0,0,Monday
+A0552,P229,2026-01-28,Cardiology,No-show,22,False,Wednesday,60+,West,6+ Visits,WhatsApp,Failed,Confirmed,Wednesday,Weekday,Winter,1,1,1,0,Wednesday
+A0553,P164,2026-03-07,Ent,Attended,15,False,Saturday,30-44,South,6+ Visits,No Reminder,Sent,No Response,Saturday,Weekend,Summer,0,3,1,0,Saturday
+A0554,P227,2026-06-12,Pediatrics,Attended,22,False,Friday,18-29,South,3-5 Visits,Phone Call,Failed,Confirmed,Friday,Weekday,Monsoon,0,6,1,0,Friday
+A0555,P147,2026-08-17,General Medicine,No-show,15,False,Monday,18-29,North,3-5 Visits,WhatsApp,Failed,No Response,Monday,Weekday,Monsoon,1,8,1,0,Monday
+A0556,P020,2026-09-18,Cardiology,Attended,0,False,Friday,60+,West,6+ Visits,Email,Failed,Rescheduled,Friday,Weekday,Monsoon,0,9,0,0,Friday
+A0557,P047,2026-06-13,Pediatrics,Attended,21,False,Saturday,60+,South,1-2 Visits,Email,Sent,Rescheduled,Saturday,Weekend,Monsoon,0,6,1,0,Saturday
+A0558,P233,2026-01-10,Pediatrics,No-show,24,False,Saturday,30-44,Rural,1-2 Visits,WhatsApp,Not Applicable,Rescheduled,Saturday,Weekend,Winter,1,1,1,0,Saturday
+A0559,P014,2026-07-14,Ent,Attended,1,False,Tuesday,60+,East,3-5 Visits,SMS,Not Applicable,Confirmed,Tuesday,Weekday,Monsoon,0,7,0,0,Tuesday
+A0560,P143,2026-04-28,Orthopedics,Attended,29,False,Tuesday,45-59,South,New Patient,WhatsApp,Not Applicable,No Response,Tuesday,Weekday,Summer,0,4,1,1,Tuesday
+A0561,P001,2026-09-27,Ent,Attended,2,False,Sunday,60+,West,1-2 Visits,WhatsApp,Sent,Confirmed,Sunday,Weekend,Monsoon,0,9,0,0,Sunday
+A0563,P259,2026-04-03,Orthopedics,Attended,20,False,Friday,18-29,North,New Patient,SMS,Failed,Confirmed,Friday,Weekday,Summer,0,4,1,1,Friday
+A0564,P144,2026-09-23,Cardiology,Attended,24,False,Wednesday,30-44,North,New Patient,Phone Call,Sent,Rescheduled,Wednesday,Weekday,Monsoon,0,9,1,1,Wednesday
+A0565,P012,2026-09-14,Cardiology,Attended,19,False,Monday,30-44,East,1-2 Visits,Phone Call,Sent,Rescheduled,Monday,Weekday,Monsoon,0,9,1,0,Monday
+A0566,P224,2026-05-13,General Medicine,Attended,16,False,Wednesday,18-29,North,6+ Visits,SMS,Not Applicable,Rescheduled,Wednesday,Weekday,Summer,0,5,1,0,Wednesday
+A0567,P272,2026-09-21,Orthopedics,Attended,19,False,Monday,60+,West,3-5 Visits,Email,Not Applicable,No Response,Monday,Weekday,Monsoon,0,9,1,0,Monday
+A0568,P156,2026-06-20,Pediatrics,No-show,21,False,Saturday,30-44,North,6+ Visits,Email,Sent,No Response,Saturday,Weekend,Monsoon,1,6,1,0,Saturday
+A0569,P008,2026-01-01,Dermatology,Attended,20,False,Thursday,18-29,West,3-5 Visits,WhatsApp,Not Applicable,Rescheduled,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0570,P122,2026-03-05,General Medicine,Attended,29,False,Thursday,30-44,Rural,3-5 Visits,No Reminder,Failed,Confirmed,Thursday,Weekday,Summer,0,3,1,0,Thursday
+A0571,P164,2026-05-01,Cardiology,Attended,28,False,Friday,30-44,South,6+ Visits,WhatsApp,Sent,Confirmed,Friday,Weekday,Summer,0,5,1,0,Friday
+A0572,P090,2026-04-17,Ent,Attended,0,False,Friday,18-29,Rural,6+ Visits,WhatsApp,Sent,No Response,Friday,Weekday,Summer,0,4,0,0,Friday
+A0574,P186,2026-07-23,General Medicine,Attended,5,False,Thursday,30-44,South,3-5 Visits,SMS,Failed,Confirmed,Thursday,Weekday,Monsoon,0,7,0,0,Thursday
+A0575,P178,2026-06-14,General Medicine,Attended,28,False,Sunday,30-44,West,1-2 Visits,Email,Failed,Rescheduled,Sunday,Weekend,Monsoon,0,6,1,0,Sunday
+A0576,P028,2026-04-30,General Medicine,Attended,14,False,Thursday,30-44,Rural,1-2 Visits,WhatsApp,Not Applicable,Confirmed,Thursday,Weekday,Summer,0,4,1,0,Thursday
+A0578,P041,2026-06-05,Ent,Attended,25,False,Friday,18-29,Rural,New Patient,Phone Call,Not Applicable,Rescheduled,Friday,Weekday,Monsoon,0,6,1,1,Friday
+A0579,P228,2026-07-26,Ent,Attended,13,False,Sunday,30-44,Rural,3-5 Visits,WhatsApp,Failed,Rescheduled,Sunday,Weekend,Monsoon,0,7,1,0,Sunday
+A0580,P192,2026-04-18,Ent,No-show,19,False,Saturday,60+,East,3-5 Visits,Email,Not Applicable,Confirmed,Saturday,Weekend,Summer,1,4,1,0,Saturday
+A0581,P145,2026-09-08,Orthopedics,No-show,14,False,Tuesday,60+,Rural,3-5 Visits,SMS,Failed,Confirmed,Tuesday,Weekday,Monsoon,1,9,1,0,Tuesday
+A0582,P201,2026-05-10,Pediatrics,Attended,13,False,Sunday,45-59,North,New Patient,WhatsApp,Not Applicable,Confirmed,Sunday,Weekend,Summer,0,5,1,1,Sunday
+A0583,P212,2026-01-20,Ent,Attended,24,False,Tuesday,18-29,South,New Patient,WhatsApp,Not Applicable,Rescheduled,Tuesday,Weekday,Winter,0,1,1,1,Tuesday
+A0584,P220,2026-01-01,General Medicine,Attended,20,False,Thursday,60+,South,3-5 Visits,No Reminder,Failed,No Response,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0585,P240,2026-04-29,General Medicine,Attended,23,False,Wednesday,45-59,East,New Patient,Phone Call,Not Applicable,No Response,Wednesday,Weekday,Summer,0,4,1,1,Wednesday
+A0586,P046,2026-02-04,Ent,Attended,24,False,Wednesday,30-44,North,6+ Visits,Phone Call,Sent,Confirmed,Wednesday,Weekday,Winter,0,2,1,0,Wednesday
+A0587,P035,2026-07-17,Ent,Attended,25,False,Friday,18-29,North,1-2 Visits,SMS,Not Applicable,No Response,Friday,Weekday,Monsoon,0,7,1,0,Friday
+A0588,P253,2026-09-02,General Medicine,Attended,4,False,Wednesday,45-59,East,New Patient,Email,Not Applicable,Confirmed,Wednesday,Weekday,Monsoon,0,9,0,1,Wednesday
+A0589,P082,2026-02-28,Orthopedics,Attended,5,False,Saturday,60+,East,6+ Visits,SMS,Sent,No Response,Saturday,Weekend,Winter,0,2,0,0,Saturday
+A0590,P256,2026-06-10,Cardiology,Attended,16,False,Wednesday,30-44,West,6+ Visits,WhatsApp,Failed,Rescheduled,Wednesday,Weekday,Monsoon,0,6,1,0,Wednesday
+A0592,P010,2026-07-25,Ent,Attended,15,False,Saturday,60+,Rural,6+ Visits,Phone Call,Not Applicable,No Response,Saturday,Weekend,Monsoon,0,7,1,0,Saturday
+A0593,P286,2026-01-12,Dermatology,Attended,11,False,Monday,30-44,Rural,6+ Visits,Email,Failed,Rescheduled,Monday,Weekday,Winter,0,1,1,0,Monday
+A0594,P242,2026-06-30,Ent,Attended,14,False,Tuesday,45-59,Rural,New Patient,No Reminder,Not Applicable,No Response,Tuesday,Weekday,Monsoon,0,6,1,1,Tuesday
+A0596,P005,2026-08-04,Cardiology,Attended,3,False,Tuesday,60+,West,New Patient,WhatsApp,Sent,Rescheduled,Tuesday,Weekday,Monsoon,0,8,0,1,Tuesday
+A0597,P119,2026-09-08,General Medicine,Attended,26,False,Tuesday,45-59,West,3-5 Visits,No Reminder,Sent,No Response,Tuesday,Weekday,Monsoon,0,9,1,0,Tuesday
+A0598,P289,2026-05-06,Ent,Attended,17,False,Wednesday,45-59,East,New Patient,Email,Failed,No Response,Wednesday,Weekday,Summer,0,5,1,1,Wednesday
+A0599,P065,2026-08-05,General Medicine,Attended,20,False,Wednesday,60+,Rural,3-5 Visits,Email,Failed,Rescheduled,Wednesday,Weekday,Monsoon,0,8,1,0,Wednesday
+A0600,P146,2026-07-04,General Medicine,Attended,27,False,Saturday,45-59,East,3-5 Visits,No Reminder,Failed,Rescheduled,Saturday,Weekend,Monsoon,0,7,1,0,Saturday
+A0601,P224,2026-02-08,Dermatology,Attended,2,False,Sunday,18-29,North,6+ Visits,WhatsApp,Not Applicable,Rescheduled,Sunday,Weekend,Winter,0,2,0,0,Sunday
+A0602,P239,2026-08-11,General Medicine,Attended,21,False,Tuesday,30-44,West,New Patient,Email,Sent,Confirmed,Tuesday,Weekday,Monsoon,0,8,1,1,Tuesday
+A0604,P267,2026-06-27,Orthopedics,Attended,22,False,Saturday,30-44,West,New Patient,WhatsApp,Sent,Confirmed,Saturday,Weekend,Monsoon,0,6,1,1,Saturday
+A0605,P282,2026-05-31,Orthopedics,Attended,2,False,Sunday,18-29,North,3-5 Visits,No Reminder,Failed,Rescheduled,Sunday,Weekend,Summer,0,5,0,0,Sunday
+A0606,P063,2026-05-06,Pediatrics,No-show,7,False,Wednesday,60+,West,New Patient,No Reminder,Sent,Confirmed,Wednesday,Weekday,Summer,1,5,1,1,Wednesday
+A0607,P217,2026-08-22,Ent,Attended,17,False,Saturday,18-29,West,New Patient,Email,Sent,Rescheduled,Saturday,Weekend,Monsoon,0,8,1,1,Saturday
+A0608,P283,2026-01-08,Cardiology,Attended,9,False,Thursday,18-29,South,1-2 Visits,WhatsApp,Sent,Rescheduled,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0609,P177,2026-05-09,General Medicine,Attended,24,False,Saturday,30-44,North,New Patient,Email,Failed,Rescheduled,Saturday,Weekend,Summer,0,5,1,1,Saturday
+A0610,P098,2026-09-21,Orthopedics,Attended,19,False,Monday,30-44,South,6+ Visits,SMS,Sent,No Response,Monday,Weekday,Monsoon,0,9,1,0,Monday
+A0613,P006,2026-03-27,General Medicine,Attended,22,False,Friday,60+,North,New Patient,No Reminder,Sent,Confirmed,Friday,Weekday,Summer,0,3,1,1,Friday
+A0614,P197,2026-06-24,Orthopedics,Attended,10,False,Wednesday,60+,West,6+ Visits,Email,Sent,Confirmed,Wednesday,Weekday,Monsoon,0,6,1,0,Wednesday
+A0616,P259,2026-04-29,Ent,No-show,4,False,Wednesday,18-29,North,New Patient,WhatsApp,Failed,No Response,Wednesday,Weekday,Summer,1,4,0,1,Wednesday
+A0618,P053,2026-04-24,Pediatrics,Attended,12,False,Friday,30-44,West,6+ Visits,SMS,Not Applicable,No Response,Friday,Weekday,Summer,0,4,1,0,Friday
+A0619,P165,2026-05-25,Orthopedics,Attended,20,False,Monday,45-59,North,New Patient,Phone Call,Failed,Confirmed,Monday,Weekday,Summer,0,5,1,1,Monday
+A0620,P202,2026-01-26,Cardiology,No-show,22,False,Monday,18-29,South,1-2 Visits,WhatsApp,Failed,Rescheduled,Monday,Weekday,Winter,1,1,1,0,Monday
+A0621,P083,2026-05-16,Ent,No-show,4,False,Saturday,30-44,East,3-5 Visits,Phone Call,Sent,No Response,Saturday,Weekend,Summer,1,5,0,0,Saturday
+A0622,P145,2026-08-20,Cardiology,Attended,23,False,Thursday,60+,Rural,3-5 Visits,WhatsApp,Not Applicable,Confirmed,Thursday,Weekday,Monsoon,0,8,1,0,Thursday
+A0623,P085,2026-03-17,Cardiology,Attended,26,False,Tuesday,18-29,South,3-5 Visits,No Reminder,Sent,Rescheduled,Tuesday,Weekday,Summer,0,3,1,0,Tuesday
+A0624,P078,2026-01-01,Orthopedics,Attended,12,False,Thursday,18-29,West,3-5 Visits,No Reminder,Failed,Rescheduled,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0625,P001,2026-05-27,Cardiology,Attended,5,False,Wednesday,60+,West,1-2 Visits,SMS,Failed,Rescheduled,Wednesday,Weekday,Summer,0,5,0,0,Wednesday
+A0626,P051,2026-05-22,Ent,Attended,28,False,Friday,30-44,South,New Patient,SMS,Sent,No Response,Friday,Weekday,Summer,0,5,1,1,Friday
+A0628,P205,2026-03-10,Pediatrics,Attended,8,False,Tuesday,18-29,Rural,6+ Visits,WhatsApp,Not Applicable,Rescheduled,Tuesday,Weekday,Summer,0,3,1,0,Tuesday
+A0629,P260,2026-03-31,General Medicine,No-show,26,False,Tuesday,30-44,West,1-2 Visits,Email,Not Applicable,No Response,Tuesday,Weekday,Summer,1,3,1,0,Tuesday
+A0630,P288,2026-08-08,Cardiology,Attended,15,False,Saturday,45-59,Rural,6+ Visits,SMS,Failed,Confirmed,Saturday,Weekend,Monsoon,0,8,1,0,Saturday
+A0631,P034,2026-07-11,General Medicine,Attended,1,False,Saturday,60+,East,3-5 Visits,Email,Not Applicable,Rescheduled,Saturday,Weekend,Monsoon,0,7,0,0,Saturday
+A0633,P072,2026-03-14,Ent,Attended,7,False,Saturday,45-59,Rural,1-2 Visits,WhatsApp,Failed,No Response,Saturday,Weekend,Summer,0,3,1,0,Saturday
+A0634,P039,2026-06-10,Cardiology,Attended,27,False,Wednesday,18-29,East,6+ Visits,Phone Call,Failed,Rescheduled,Wednesday,Weekday,Monsoon,0,6,1,0,Wednesday
+A0635,P154,2026-06-18,Orthopedics,Attended,18,False,Thursday,60+,Rural,6+ Visits,WhatsApp,Failed,Confirmed,Thursday,Weekday,Monsoon,0,6,1,0,Thursday
+A0636,P250,2026-03-30,General Medicine,Attended,29,False,Monday,60+,Rural,New Patient,SMS,Failed,No Response,Monday,Weekday,Summer,0,3,1,1,Monday
+A0637,P162,2026-06-25,Orthopedics,No-show,10,False,Thursday,60+,South,6+ Visits,Email,Sent,No Response,Thursday,Weekday,Monsoon,1,6,1,0,Thursday
+A0639,P259,2026-03-14,Dermatology,Attended,11,False,Saturday,18-29,North,New Patient,WhatsApp,Failed,Rescheduled,Saturday,Weekend,Summer,0,3,1,1,Saturday
+A0640,P268,2026-09-02,Cardiology,Attended,11,False,Wednesday,60+,North,New Patient,WhatsApp,Failed,Rescheduled,Wednesday,Weekday,Monsoon,0,9,1,1,Wednesday
+A0641,P054,2026-03-18,Pediatrics,Attended,6,False,Wednesday,18-29,Rural,New Patient,SMS,Not Applicable,No Response,Wednesday,Weekday,Summer,0,3,0,1,Wednesday
+A0642,P236,2026-06-08,Ent,No-show,25,False,Monday,60+,North,3-5 Visits,Phone Call,Failed,Rescheduled,Monday,Weekday,Monsoon,1,6,1,0,Monday
+A0643,P222,2026-04-08,Ent,Attended,12,False,Wednesday,60+,Rural,3-5 Visits,WhatsApp,Sent,Confirmed,Wednesday,Weekday,Summer,0,4,1,0,Wednesday
+A0644,P251,2026-04-12,Cardiology,Attended,26,False,Sunday,60+,West,3-5 Visits,SMS,Sent,Rescheduled,Sunday,Weekend,Summer,0,4,1,0,Sunday
+A0645,P112,2026-05-12,Pediatrics,Attended,7,False,Tuesday,18-29,West,6+ Visits,Email,Failed,Rescheduled,Tuesday,Weekday,Summer,0,5,1,0,Tuesday
+A0646,P255,2026-04-12,Ent,Attended,30,False,Sunday,18-29,South,New Patient,No Reminder,Sent,No Response,Sunday,Weekend,Summer,0,4,1,1,Sunday
+A0647,P207,2026-01-19,Cardiology,Attended,28,False,Monday,18-29,East,3-5 Visits,SMS,Not Applicable,Rescheduled,Monday,Weekday,Winter,0,1,1,0,Monday
+A0648,P229,2026-03-23,Ent,No-show,28,False,Monday,60+,West,6+ Visits,No Reminder,Failed,No Response,Monday,Weekday,Summer,1,3,1,0,Monday
+A0649,P066,2026-05-09,Orthopedics,Attended,21,False,Saturday,60+,West,1-2 Visits,WhatsApp,Sent,Rescheduled,Saturday,Weekend,Summer,0,5,1,0,Saturday
+A0650,P075,2026-03-30,General Medicine,Attended,27,False,Monday,60+,Rural,1-2 Visits,WhatsApp,Sent,Confirmed,Monday,Weekday,Summer,0,3,1,0,Monday
+A0652,P192,2026-05-23,Ent,No-show,29,False,Saturday,60+,East,3-5 Visits,No Reminder,Sent,No Response,Saturday,Weekend,Summer,1,5,1,0,Saturday
+A0653,P252,2026-03-06,Dermatology,Attended,8,False,Friday,18-29,South,6+ Visits,WhatsApp,Failed,No Response,Friday,Weekday,Summer,0,3,1,0,Friday
+A0654,P226,2026-03-17,Pediatrics,Attended,6,False,Tuesday,60+,South,6+ Visits,Email,Sent,Rescheduled,Tuesday,Weekday,Summer,0,3,0,0,Tuesday
+A0655,P294,2026-07-18,Pediatrics,Attended,30,False,Saturday,45-59,East,New Patient,Phone Call,Not Applicable,Rescheduled,Saturday,Weekend,Monsoon,0,7,1,1,Saturday
+A0656,P098,2026-05-23,Pediatrics,Attended,25,False,Saturday,30-44,South,6+ Visits,Phone Call,Sent,Confirmed,Saturday,Weekend,Summer,0,5,1,0,Saturday
+A0657,P286,2026-04-03,Orthopedics,Attended,20,False,Friday,30-44,Rural,6+ Visits,WhatsApp,Sent,Rescheduled,Friday,Weekday,Summer,0,4,1,0,Friday
+A0658,P249,2026-08-12,Pediatrics,Attended,23,False,Wednesday,18-29,West,New Patient,No Reminder,Failed,Confirmed,Wednesday,Weekday,Monsoon,0,8,1,1,Wednesday
+A0659,P166,2026-04-12,General Medicine,Attended,14,False,Sunday,60+,South,1-2 Visits,WhatsApp,Sent,No Response,Sunday,Weekend,Summer,0,4,1,0,Sunday
+A0660,P030,2026-09-24,Orthopedics,No-show,1,False,Thursday,45-59,South,New Patient,No Reminder,Failed,Rescheduled,Thursday,Weekday,Monsoon,1,9,0,1,Thursday
+A0661,P247,2026-04-20,Cardiology,Attended,22,False,Monday,45-59,Rural,6+ Visits,Email,Not Applicable,No Response,Monday,Weekday,Summer,0,4,1,0,Monday
+A0662,P106,2026-09-22,Pediatrics,Attended,30,False,Tuesday,30-44,North,3-5 Visits,No Reminder,Failed,Rescheduled,Tuesday,Weekday,Monsoon,0,9,1,0,Tuesday
+A0663,P051,2026-01-03,Pediatrics,Attended,19,False,Saturday,30-44,South,New Patient,WhatsApp,Failed,Confirmed,Saturday,Weekend,Winter,0,1,1,1,Saturday
+A0665,P133,2026-04-27,Pediatrics,No-show,11,False,Monday,45-59,North,3-5 Visits,SMS,Not Applicable,No Response,Monday,Weekday,Summer,1,4,1,0,Monday
+A0666,P285,2026-08-09,Cardiology,No-show,0,False,Sunday,60+,Rural,New Patient,Phone Call,Failed,Rescheduled,Sunday,Weekend,Monsoon,1,8,0,1,Sunday
+A0667,P138,2026-06-03,Orthopedics,No-show,22,False,Wednesday,45-59,Rural,1-2 Visits,WhatsApp,Sent,No Response,Wednesday,Weekday,Monsoon,1,6,1,0,Wednesday
+A0669,P273,2026-01-12,Cardiology,Attended,7,False,Monday,30-44,South,1-2 Visits,WhatsApp,Failed,No Response,Monday,Weekday,Winter,0,1,1,0,Monday
+A0670,P069,2026-05-13,Dermatology,Attended,4,False,Wednesday,18-29,East,3-5 Visits,Email,Sent,No Response,Wednesday,Weekday,Summer,0,5,0,0,Wednesday
+A0671,P034,2026-08-16,Cardiology,Attended,14,False,Sunday,60+,East,3-5 Visits,SMS,Failed,Rescheduled,Sunday,Weekend,Monsoon,0,8,1,0,Sunday
+A0672,P262,2026-09-28,Pediatrics,No-show,0,False,Monday,30-44,South,1-2 Visits,No Reminder,Failed,No Response,Monday,Weekday,Monsoon,1,9,0,0,Monday
+A0673,P053,2026-02-12,Orthopedics,No-show,0,False,Thursday,30-44,West,6+ Visits,SMS,Failed,Rescheduled,Thursday,Weekday,Winter,1,2,0,0,Thursday
+A0674,P205,2026-01-21,Ent,Attended,24,False,Wednesday,18-29,Rural,6+ Visits,Email,Not Applicable,Rescheduled,Wednesday,Weekday,Winter,0,1,1,0,Wednesday
+A0675,P126,2026-04-17,Orthopedics,Attended,30,False,Friday,18-29,Rural,New Patient,WhatsApp,Failed,No Response,Friday,Weekday,Summer,0,4,1,1,Friday
+A0676,P235,2026-04-27,Ent,Attended,9,False,Monday,45-59,South,6+ Visits,Phone Call,Sent,Confirmed,Monday,Weekday,Summer,0,4,1,0,Monday
+A0678,P240,2026-07-22,General Medicine,Attended,9,False,Wednesday,45-59,East,New Patient,No Reminder,Sent,No Response,Wednesday,Weekday,Monsoon,0,7,1,1,Wednesday
+A0679,P111,2026-02-20,Dermatology,Attended,20,False,Friday,18-29,East,New Patient,Phone Call,Not Applicable,Rescheduled,Friday,Weekday,Winter,0,2,1,1,Friday
+A0680,P249,2026-09-28,Orthopedics,Attended,14,False,Monday,18-29,West,New Patient,WhatsApp,Not Applicable,Confirmed,Monday,Weekday,Monsoon,0,9,1,1,Monday
+A0681,P151,2026-05-21,Pediatrics,Attended,16,False,Thursday,60+,North,1-2 Visits,Phone Call,Not Applicable,Confirmed,Thursday,Weekday,Summer,0,5,1,0,Thursday
+A0683,P095,2026-01-27,Pediatrics,Attended,5,False,Tuesday,60+,East,1-2 Visits,Email,Sent,Confirmed,Tuesday,Weekday,Winter,0,1,0,0,Tuesday
+A0684,P008,2026-06-06,General Medicine,No-show,2,False,Saturday,18-29,West,3-5 Visits,WhatsApp,Failed,No Response,Saturday,Weekend,Monsoon,1,6,0,0,Saturday
+A0685,P184,2026-08-27,Ent,Attended,12,False,Thursday,30-44,West,6+ Visits,No Reminder,Sent,No Response,Thursday,Weekday,Monsoon,0,8,1,0,Thursday
+A0686,P281,2026-06-05,Orthopedics,Attended,15,False,Friday,60+,North,6+ Visits,SMS,Failed,Rescheduled,Friday,Weekday,Monsoon,0,6,1,0,Friday
+A0687,P195,2026-05-16,Cardiology,Attended,7,False,Saturday,18-29,West,New Patient,WhatsApp,Sent,Confirmed,Saturday,Weekend,Summer,0,5,1,1,Saturday
+A0688,P195,2026-05-24,Pediatrics,No-show,29,False,Sunday,18-29,West,New Patient,SMS,Not Applicable,No Response,Sunday,Weekend,Summer,1,5,1,1,Sunday
+A0689,P155,2026-04-16,General Medicine,Attended,14,False,Thursday,18-29,Rural,3-5 Visits,No Reminder,Not Applicable,No Response,Thursday,Weekday,Summer,0,4,1,0,Thursday
+A0690,P093,2026-06-07,Orthopedics,Attended,16,False,Sunday,60+,West,New Patient,WhatsApp,Failed,No Response,Sunday,Weekend,Monsoon,0,6,1,1,Sunday
+A0691,P160,2026-05-26,Orthopedics,Attended,16,False,Tuesday,60+,Rural,New Patient,No Reminder,Failed,Rescheduled,Tuesday,Weekday,Summer,0,5,1,1,Tuesday
+A0693,P122,2026-03-18,Orthopedics,Attended,25,False,Wednesday,30-44,Rural,3-5 Visits,No Reminder,Failed,No Response,Wednesday,Weekday,Summer,0,3,1,0,Wednesday
+A0694,P051,2026-05-12,Ent,No-show,12,False,Tuesday,30-44,South,New Patient,Phone Call,Sent,No Response,Tuesday,Weekday,Summer,1,5,1,1,Tuesday
+A0695,P277,2026-03-31,Orthopedics,Attended,16,False,Tuesday,18-29,East,3-5 Visits,WhatsApp,Failed,Confirmed,Tuesday,Weekday,Summer,0,3,1,0,Tuesday
+A0696,P005,2026-09-20,Pediatrics,Attended,5,False,Sunday,60+,West,New Patient,Phone Call,Failed,Confirmed,Sunday,Weekend,Monsoon,0,9,0,1,Sunday
+A0697,P092,2026-04-18,General Medicine,Attended,16,False,Saturday,30-44,North,6+ Visits,WhatsApp,Failed,Confirmed,Saturday,Weekend,Summer,0,4,1,0,Saturday
+A0698,P170,2026-03-15,Ent,Attended,15,False,Sunday,18-29,South,3-5 Visits,WhatsApp,Not Applicable,Rescheduled,Sunday,Weekend,Summer,0,3,1,0,Sunday
+A0699,P022,2026-02-08,Orthopedics,Attended,13,False,Sunday,18-29,Rural,6+ Visits,Email,Not Applicable,No Response,Sunday,Weekend,Winter,0,2,1,0,Sunday
+A0700,P001,2026-06-08,Dermatology,Attended,12,False,Monday,60+,West,1-2 Visits,WhatsApp,Sent,Rescheduled,Monday,Weekday,Monsoon,0,6,1,0,Monday
+A0701,P133,2026-03-12,Dermatology,Attended,5,False,Thursday,45-59,North,3-5 Visits,Phone Call,Failed,No Response,Thursday,Weekday,Summer,0,3,0,0,Thursday
+A0703,P012,2026-02-05,Cardiology,Attended,13,False,Thursday,30-44,East,1-2 Visits,Email,Failed,Confirmed,Thursday,Weekday,Winter,0,2,1,0,Thursday
+A0704,P046,2026-03-25,Cardiology,No-show,13,False,Wednesday,30-44,North,6+ Visits,WhatsApp,Not Applicable,Confirmed,Wednesday,Weekday,Summer,1,3,1,0,Wednesday
+A0705,P034,2026-09-20,Ent,Attended,14,False,Sunday,60+,East,3-5 Visits,No Reminder,Not Applicable,Confirmed,Sunday,Weekend,Monsoon,0,9,1,0,Sunday
+A0706,P078,2026-06-21,Ent,Attended,7,False,Sunday,18-29,West,3-5 Visits,No Reminder,Failed,No Response,Sunday,Weekend,Monsoon,0,6,1,0,Sunday
+A0707,P218,2026-06-22,Ent,Attended,28,False,Monday,30-44,West,New Patient,Email,Failed,Confirmed,Monday,Weekday,Monsoon,0,6,1,1,Monday
+A0708,P073,2026-02-16,Cardiology,Attended,14,False,Monday,30-44,East,New Patient,WhatsApp,Not Applicable,No Response,Monday,Weekday,Winter,0,2,1,1,Monday
+A0709,P282,2026-05-21,Dermatology,Attended,21,False,Thursday,18-29,North,3-5 Visits,No Reminder,Not Applicable,No Response,Thursday,Weekday,Summer,0,5,1,0,Thursday
+A0710,P249,2026-04-28,Cardiology,Attended,28,False,Tuesday,18-29,West,New Patient,WhatsApp,Sent,Rescheduled,Tuesday,Weekday,Summer,0,4,1,1,Tuesday
+A0711,P047,2026-08-02,Pediatrics,Attended,26,False,Sunday,60+,South,1-2 Visits,WhatsApp,Not Applicable,Confirmed,Sunday,Weekend,Monsoon,0,8,1,0,Sunday
+A0712,P121,2026-08-08,Orthopedics,Attended,12,False,Saturday,30-44,East,1-2 Visits,Email,Failed,Confirmed,Saturday,Weekend,Monsoon,0,8,1,0,Saturday
+A0714,P239,2026-01-09,Dermatology,No-show,30,False,Friday,30-44,West,New Patient,SMS,Failed,No Response,Friday,Weekday,Winter,1,1,1,1,Friday
+A0715,P056,2026-09-28,General Medicine,No-show,20,False,Monday,45-59,North,6+ Visits,No Reminder,Sent,Confirmed,Monday,Weekday,Monsoon,1,9,1,0,Monday
+A0716,P107,2026-01-10,General Medicine,Attended,23,False,Saturday,45-59,South,1-2 Visits,No Reminder,Failed,No Response,Saturday,Weekend,Winter,0,1,1,0,Saturday
+A0717,P048,2026-05-01,Orthopedics,Attended,2,False,Friday,60+,Rural,6+ Visits,No Reminder,Not Applicable,Rescheduled,Friday,Weekday,Summer,0,5,0,0,Friday
+A0718,P061,2026-05-05,Dermatology,Attended,27,False,Tuesday,30-44,East,New Patient,Phone Call,Failed,No Response,Tuesday,Weekday,Summer,0,5,1,1,Tuesday
+A0719,P026,2026-06-19,Cardiology,Attended,5,False,Friday,60+,Rural,New Patient,WhatsApp,Sent,Confirmed,Friday,Weekday,Monsoon,0,6,0,1,Friday
+A0720,P292,2026-03-13,Cardiology,Attended,4,False,Friday,45-59,South,New Patient,Email,Failed,No Response,Friday,Weekday,Summer,0,3,0,1,Friday
+A0721,P257,2026-06-01,Pediatrics,Attended,21,False,Monday,30-44,Rural,New Patient,No Reminder,Sent,No Response,Monday,Weekday,Monsoon,0,6,1,1,Monday
+A0722,P008,2026-07-27,Pediatrics,Attended,25,False,Monday,18-29,West,3-5 Visits,SMS,Failed,Confirmed,Monday,Weekday,Monsoon,0,7,1,0,Monday
+A0723,P113,2026-02-18,Cardiology,Attended,16,False,Wednesday,45-59,East,1-2 Visits,No Reminder,Not Applicable,Confirmed,Wednesday,Weekday,Winter,0,2,1,0,Wednesday
+A0724,P253,2026-06-03,General Medicine,No-show,22,False,Wednesday,45-59,East,New Patient,WhatsApp,Not Applicable,No Response,Wednesday,Weekday,Monsoon,1,6,1,1,Wednesday
+A0725,P180,2026-03-09,Ent,No-show,24,False,Monday,60+,West,6+ Visits,WhatsApp,Failed,No Response,Monday,Weekday,Summer,1,3,1,0,Monday
+A0726,P207,2026-02-19,General Medicine,Attended,1,False,Thursday,18-29,East,3-5 Visits,Email,Failed,Rescheduled,Thursday,Weekday,Winter,0,2,0,0,Thursday
+A0729,P214,2026-04-10,Cardiology,Attended,4,False,Friday,30-44,West,1-2 Visits,No Reminder,Failed,Confirmed,Friday,Weekday,Summer,0,4,0,0,Friday
+A0730,P014,2026-03-01,Pediatrics,Attended,25,False,Sunday,60+,East,3-5 Visits,SMS,Failed,Rescheduled,Sunday,Weekend,Summer,0,3,1,0,Sunday
+A0731,P028,2026-06-16,Pediatrics,Attended,19,False,Tuesday,30-44,Rural,1-2 Visits,Email,Sent,No Response,Tuesday,Weekday,Monsoon,0,6,1,0,Tuesday
+A0734,P154,2026-06-13,Ent,Attended,26,False,Saturday,60+,Rural,6+ Visits,WhatsApp,Failed,Confirmed,Saturday,Weekend,Monsoon,0,6,1,0,Saturday
+A0735,P014,2026-08-30,Cardiology,Attended,17,False,Sunday,60+,East,3-5 Visits,No Reminder,Not Applicable,Rescheduled,Sunday,Weekend,Monsoon,0,8,1,0,Sunday
+A0736,P187,2026-03-10,Ent,Attended,17,False,Tuesday,60+,West,6+ Visits,No Reminder,Not Applicable,Confirmed,Tuesday,Weekday,Summer,0,3,1,0,Tuesday
+A0737,P007,2026-06-24,General Medicine,Attended,3,False,Wednesday,30-44,North,3-5 Visits,No Reminder,Sent,No Response,Wednesday,Weekday,Monsoon,0,6,0,0,Wednesday
+A0738,P003,2026-02-18,Orthopedics,Attended,16,False,Wednesday,30-44,Rural,3-5 Visits,No Reminder,Failed,Rescheduled,Wednesday,Weekday,Winter,0,2,1,0,Wednesday
+A0739,P111,2026-04-18,Orthopedics,No-show,24,False,Saturday,18-29,East,New Patient,No Reminder,Failed,No Response,Saturday,Weekend,Summer,1,4,1,1,Saturday
+A0740,P238,2026-08-14,Cardiology,Attended,13,False,Friday,60+,Rural,3-5 Visits,No Reminder,Sent,No Response,Friday,Weekday,Monsoon,0,8,1,0,Friday
+A0741,P239,2026-06-10,Dermatology,No-show,13,False,Wednesday,30-44,West,New Patient,SMS,Not Applicable,Confirmed,Wednesday,Weekday,Monsoon,1,6,1,1,Wednesday
+A0742,P274,2026-04-29,Pediatrics,No-show,12,False,Wednesday,30-44,North,1-2 Visits,Phone Call,Sent,No Response,Wednesday,Weekday,Summer,1,4,1,0,Wednesday
+A0743,P294,2026-05-29,Pediatrics,No-show,6,False,Friday,45-59,East,New Patient,No Reminder,Not Applicable,Rescheduled,Friday,Weekday,Summer,1,5,0,1,Friday
+A0744,P227,2026-05-30,Cardiology,Attended,11,False,Saturday,18-29,South,3-5 Visits,Phone Call,Sent,No Response,Saturday,Weekend,Summer,0,5,1,0,Saturday
+A0745,P015,2026-05-23,Ent,Attended,22,False,Saturday,30-44,East,6+ Visits,No Reminder,Not Applicable,No Response,Saturday,Weekend,Summer,0,5,1,0,Saturday
+A0746,P192,2026-06-09,Dermatology,Attended,14,False,Tuesday,60+,East,3-5 Visits,Email,Sent,Confirmed,Tuesday,Weekday,Monsoon,0,6,1,0,Tuesday
+A0747,P119,2026-01-11,General Medicine,Attended,18,False,Sunday,45-59,West,3-5 Visits,No Reminder,Not Applicable,Rescheduled,Sunday,Weekend,Winter,0,1,1,0,Sunday
+A0748,P028,2026-05-18,Ent,Attended,30,False,Monday,30-44,Rural,1-2 Visits,WhatsApp,Not Applicable,Confirmed,Monday,Weekday,Summer,0,5,1,0,Monday
+A0749,P202,2026-03-19,Ent,No-show,10,False,Thursday,18-29,South,1-2 Visits,SMS,Not Applicable,No Response,Thursday,Weekday,Summer,1,3,1,0,Thursday
+A0750,P039,2026-03-18,Cardiology,Attended,14,False,Wednesday,18-29,East,6+ Visits,Email,Not Applicable,Confirmed,Wednesday,Weekday,Summer,0,3,1,0,Wednesday
+A0751,P273,2026-09-11,Cardiology,Attended,11,False,Friday,30-44,South,1-2 Visits,Email,Not Applicable,Confirmed,Friday,Weekday,Monsoon,0,9,1,0,Friday
+A0752,P231,2026-09-15,Pediatrics,Attended,2,False,Tuesday,45-59,Rural,1-2 Visits,WhatsApp,Failed,Confirmed,Tuesday,Weekday,Monsoon,0,9,0,0,Tuesday
+A0753,P086,2026-09-20,Cardiology,Attended,16,False,Sunday,60+,South,6+ Visits,No Reminder,Not Applicable,Confirmed,Sunday,Weekend,Monsoon,0,9,1,0,Sunday
+A0754,P126,2026-03-26,Cardiology,No-show,2,False,Thursday,18-29,Rural,New Patient,SMS,Failed,No Response,Thursday,Weekday,Summer,1,3,0,1,Thursday
+A0755,P300,2026-05-26,Cardiology,No-show,18,False,Tuesday,30-44,East,1-2 Visits,Email,Not Applicable,No Response,Tuesday,Weekday,Summer,1,5,1,0,Tuesday
+A0756,P025,2026-02-11,Pediatrics,Attended,19,False,Wednesday,45-59,East,6+ Visits,SMS,Failed,Rescheduled,Wednesday,Weekday,Winter,0,2,1,0,Wednesday
+A0757,P145,2026-05-05,General Medicine,Attended,3,False,Tuesday,60+,Rural,3-5 Visits,Email,Failed,Confirmed,Tuesday,Weekday,Summer,0,5,0,0,Tuesday
+A0758,P013,2026-06-16,General Medicine,Attended,2,False,Tuesday,45-59,West,6+ Visits,No Reminder,Sent,Confirmed,Tuesday,Weekday,Monsoon,0,6,0,0,Tuesday
+A0759,P212,2026-08-29,Cardiology,Attended,25,False,Saturday,18-29,South,New Patient,Email,Not Applicable,Rescheduled,Saturday,Weekend,Monsoon,0,8,1,1,Saturday
+A0760,P025,2026-07-07,Pediatrics,Attended,15,False,Tuesday,45-59,East,6+ Visits,Email,Sent,Confirmed,Tuesday,Weekday,Monsoon,0,7,1,0,Tuesday
+A0762,P067,2026-03-09,Ent,Attended,7,False,Monday,45-59,North,3-5 Visits,No Reminder,Not Applicable,No Response,Monday,Weekday,Summer,0,3,1,0,Monday
+A0763,P233,2026-08-06,General Medicine,Attended,23,False,Thursday,30-44,Rural,1-2 Visits,WhatsApp,Sent,Rescheduled,Thursday,Weekday,Monsoon,0,8,1,0,Thursday
+A0764,P109,2026-04-12,General Medicine,Attended,28,False,Sunday,45-59,North,New Patient,WhatsApp,Not Applicable,Confirmed,Sunday,Weekend,Summer,0,4,1,1,Sunday
+A0765,P146,2026-02-11,Pediatrics,Attended,28,False,Wednesday,45-59,East,3-5 Visits,No Reminder,Sent,Rescheduled,Wednesday,Weekday,Winter,0,2,1,0,Wednesday
+A0766,P111,2026-06-16,Ent,Attended,16,False,Tuesday,18-29,East,New Patient,WhatsApp,Not Applicable,No Response,Tuesday,Weekday,Monsoon,0,6,1,1,Tuesday
+A0767,P228,2026-04-19,Pediatrics,Attended,6,False,Sunday,30-44,Rural,3-5 Visits,No Reminder,Not Applicable,Confirmed,Sunday,Weekend,Summer,0,4,0,0,Sunday
+A0768,P111,2026-02-05,Cardiology,Attended,10,False,Thursday,18-29,East,New Patient,WhatsApp,Not Applicable,No Response,Thursday,Weekday,Winter,0,2,1,1,Thursday
+A0769,P034,2026-08-20,Orthopedics,Attended,17,False,Thursday,60+,East,3-5 Visits,Phone Call,Failed,No Response,Thursday,Weekday,Monsoon,0,8,1,0,Thursday
+A0770,P111,2026-08-17,General Medicine,Attended,0,False,Monday,18-29,East,New Patient,WhatsApp,Sent,Rescheduled,Monday,Weekday,Monsoon,0,8,0,1,Monday
+A0771,P264,2026-06-13,Orthopedics,Attended,2,False,Saturday,60+,West,New Patient,Email,Failed,No Response,Saturday,Weekend,Monsoon,0,6,0,1,Saturday
+A0772,P236,2026-03-14,Pediatrics,Attended,3,False,Saturday,60+,North,3-5 Visits,No Reminder,Sent,Confirmed,Saturday,Weekend,Summer,0,3,0,0,Saturday
+A0774,P042,2026-03-11,Pediatrics,Attended,5,False,Wednesday,30-44,South,6+ Visits,SMS,Sent,No Response,Wednesday,Weekday,Summer,0,3,0,0,Wednesday
+A0775,P101,2026-07-15,Orthopedics,Attended,25,False,Wednesday,45-59,East,6+ Visits,No Reminder,Failed,Rescheduled,Wednesday,Weekday,Monsoon,0,7,1,0,Wednesday
+A0776,P006,2026-09-26,Pediatrics,Attended,13,False,Saturday,60+,North,New Patient,Phone Call,Sent,No Response,Saturday,Weekend,Monsoon,0,9,1,1,Saturday
+A0777,P180,2026-02-18,Cardiology,Attended,4,False,Wednesday,60+,West,6+ Visits,WhatsApp,Failed,Rescheduled,Wednesday,Weekday,Winter,0,2,0,0,Wednesday
+A0778,P282,2026-05-10,Pediatrics,Attended,15,False,Sunday,18-29,North,3-5 Visits,Phone Call,Not Applicable,Rescheduled,Sunday,Weekend,Summer,0,5,1,0,Sunday
+A0779,P226,2026-01-05,Dermatology,No-show,14,False,Monday,60+,South,6+ Visits,SMS,Sent,Confirmed,Monday,Weekday,Winter,1,1,1,0,Monday
+A0780,P229,2026-01-27,Orthopedics,No-show,14,False,Tuesday,60+,West,6+ Visits,No Reminder,Sent,Confirmed,Tuesday,Weekday,Winter,1,1,1,0,Tuesday
+A0781,P289,2026-06-09,Dermatology,Attended,29,False,Tuesday,45-59,East,New Patient,No Reminder,Not Applicable,Confirmed,Tuesday,Weekday,Monsoon,0,6,1,1,Tuesday
+A0782,P150,2026-05-29,Pediatrics,Attended,3,False,Friday,60+,West,6+ Visits,Phone Call,Not Applicable,Confirmed,Friday,Weekday,Summer,0,5,0,0,Friday
+A0783,P277,2026-09-21,Cardiology,Attended,7,False,Monday,18-29,East,3-5 Visits,Phone Call,Sent,Rescheduled,Monday,Weekday,Monsoon,0,9,1,0,Monday
+A0785,P070,2026-07-19,Ent,Attended,15,False,Sunday,45-59,East,New Patient,Email,Failed,Confirmed,Sunday,Weekend,Monsoon,0,7,1,1,Sunday
+A0786,P112,2026-02-19,Ent,Attended,27,False,Thursday,18-29,West,6+ Visits,Email,Failed,Confirmed,Thursday,Weekday,Winter,0,2,1,0,Thursday
+A0787,P004,2026-03-08,Pediatrics,Attended,15,False,Sunday,60+,Rural,1-2 Visits,WhatsApp,Sent,Confirmed,Sunday,Weekend,Summer,0,3,1,0,Sunday
+A0788,P095,2026-02-27,Cardiology,Attended,29,False,Friday,60+,East,1-2 Visits,Email,Failed,No Response,Friday,Weekday,Winter,0,2,1,0,Friday
+A0789,P152,2026-09-16,Orthopedics,Attended,3,False,Wednesday,18-29,East,3-5 Visits,SMS,Failed,Confirmed,Wednesday,Weekday,Monsoon,0,9,0,0,Wednesday
+A0790,P137,2026-05-10,Dermatology,Attended,12,False,Sunday,45-59,North,1-2 Visits,Email,Sent,No Response,Sunday,Weekend,Summer,0,5,1,0,Sunday
+A0791,P247,2026-08-03,Dermatology,Attended,25,False,Monday,45-59,Rural,6+ Visits,WhatsApp,Not Applicable,Rescheduled,Monday,Weekday,Monsoon,0,8,1,0,Monday
+A0792,P243,2026-06-21,Dermatology,No-show,27,False,Sunday,18-29,West,3-5 Visits,Email,Sent,Rescheduled,Sunday,Weekend,Monsoon,1,6,1,0,Sunday
+A0793,P031,2026-09-15,Orthopedics,Attended,12,False,Tuesday,18-29,Rural,New Patient,No Reminder,Failed,Rescheduled,Tuesday,Weekday,Monsoon,0,9,1,1,Tuesday
+A0794,P040,2026-04-12,Ent,Attended,1,False,Sunday,60+,East,New Patient,Phone Call,Sent,No Response,Sunday,Weekend,Summer,0,4,0,1,Sunday
+A0796,P036,2026-04-26,Orthopedics,Attended,2,False,Sunday,45-59,North,1-2 Visits,No Reminder,Failed,Confirmed,Sunday,Weekend,Summer,0,4,0,0,Sunday
+A0797,P223,2026-09-21,Dermatology,Attended,21,False,Monday,30-44,Rural,New Patient,No Reminder,Failed,Confirmed,Monday,Weekday,Monsoon,0,9,1,1,Monday
+A0798,P006,2026-05-30,Pediatrics,Attended,7,False,Saturday,60+,North,New Patient,WhatsApp,Sent,Confirmed,Saturday,Weekend,Summer,0,5,1,1,Saturday
+A0799,P220,2026-02-05,General Medicine,Attended,23,False,Thursday,60+,South,3-5 Visits,Phone Call,Failed,Confirmed,Thursday,Weekday,Winter,0,2,1,0,Thursday
+A0800,P075,2026-07-27,Orthopedics,No-show,14,False,Monday,60+,Rural,1-2 Visits,Phone Call,Failed,No Response,Monday,Weekday,Monsoon,1,7,1,0,Monday
+A0801,P004,2026-04-16,Orthopedics,Attended,10,False,Thursday,60+,Rural,1-2 Visits,SMS,Failed,Rescheduled,Thursday,Weekday,Summer,0,4,1,0,Thursday
+A0802,P134,2026-06-07,Cardiology,Attended,30,False,Sunday,45-59,South,3-5 Visits,WhatsApp,Failed,Confirmed,Sunday,Weekend,Monsoon,0,6,1,0,Sunday
+A0803,P118,2026-05-01,Cardiology,Attended,8,False,Friday,30-44,South,1-2 Visits,SMS,Failed,Rescheduled,Friday,Weekday,Summer,0,5,1,0,Friday
+A0804,P094,2026-02-24,Orthopedics,Attended,6,False,Tuesday,18-29,East,6+ Visits,Email,Failed,No Response,Tuesday,Weekday,Winter,0,2,0,0,Tuesday
+A0805,P062,2026-01-12,Dermatology,No-show,12,False,Monday,18-29,West,6+ Visits,No Reminder,Not Applicable,No Response,Monday,Weekday,Winter,1,1,1,0,Monday
+A0806,P194,2026-05-25,General Medicine,Attended,1,False,Monday,60+,East,1-2 Visits,SMS,Sent,Confirmed,Monday,Weekday,Summer,0,5,0,0,Monday
+A0807,P203,2026-05-16,Cardiology,Attended,7,False,Saturday,30-44,West,3-5 Visits,No Reminder,Failed,No Response,Saturday,Weekend,Summer,0,5,1,0,Saturday
+A0808,P026,2026-01-03,Dermatology,No-show,6,False,Saturday,60+,Rural,New Patient,WhatsApp,Sent,Rescheduled,Saturday,Weekend,Winter,1,1,0,1,Saturday
+A0809,P173,2026-05-24,Pediatrics,Attended,23,False,Sunday,45-59,South,3-5 Visits,Email,Not Applicable,Confirmed,Sunday,Weekend,Summer,0,5,1,0,Sunday
+A0810,P300,2026-01-30,Cardiology,No-show,11,False,Friday,30-44,East,1-2 Visits,WhatsApp,Failed,Confirmed,Friday,Weekday,Winter,1,1,1,0,Friday
+A0811,P133,2026-08-25,Dermatology,No-show,18,False,Tuesday,45-59,North,3-5 Visits,Email,Sent,Rescheduled,Tuesday,Weekday,Monsoon,1,8,1,0,Tuesday
+A0812,P118,2026-04-25,Dermatology,No-show,6,False,Saturday,30-44,South,1-2 Visits,Email,Failed,Confirmed,Saturday,Weekend,Summer,1,4,0,0,Saturday
+A0813,P275,2026-04-14,General Medicine,Attended,9,False,Tuesday,45-59,North,6+ Visits,No Reminder,Failed,Confirmed,Tuesday,Weekday,Summer,0,4,1,0,Tuesday
+A0814,P212,2026-04-28,General Medicine,Attended,28,False,Tuesday,18-29,South,New Patient,WhatsApp,Failed,Rescheduled,Tuesday,Weekday,Summer,0,4,1,1,Tuesday
+A0815,P225,2026-01-05,Pediatrics,No-show,24,False,Monday,30-44,South,1-2 Visits,WhatsApp,Failed,Confirmed,Monday,Weekday,Winter,1,1,1,0,Monday
+A0816,P020,2026-09-05,Dermatology,Attended,15,False,Saturday,60+,West,6+ Visits,SMS,Failed,Confirmed,Saturday,Weekend,Monsoon,0,9,1,0,Saturday
+A0817,P113,2026-05-01,Ent,Attended,2,False,Friday,45-59,East,1-2 Visits,WhatsApp,Failed,Rescheduled,Friday,Weekday,Summer,0,5,0,0,Friday
+A0818,P140,2026-05-29,Dermatology,No-show,29,False,Friday,60+,West,New Patient,SMS,Failed,No Response,Friday,Weekday,Summer,1,5,1,1,Friday
+A0820,P001,2026-08-19,Ent,Attended,5,False,Wednesday,60+,West,1-2 Visits,Phone Call,Not Applicable,Confirmed,Wednesday,Weekday,Monsoon,0,8,0,0,Wednesday
+A0821,P090,2026-06-10,Cardiology,Attended,17,False,Wednesday,18-29,Rural,6+ Visits,Phone Call,Failed,Rescheduled,Wednesday,Weekday,Monsoon,0,6,1,0,Wednesday
+A0822,P142,2026-09-29,Cardiology,Attended,17,False,Tuesday,30-44,North,6+ Visits,WhatsApp,Failed,Confirmed,Tuesday,Weekday,Monsoon,0,9,1,0,Tuesday
+A0823,P038,2026-02-07,Orthopedics,No-show,4,False,Saturday,60+,West,1-2 Visits,WhatsApp,Not Applicable,Confirmed,Saturday,Weekend,Winter,1,2,0,0,Saturday
+A0825,P139,2026-05-22,Orthopedics,Attended,28,False,Friday,18-29,South,1-2 Visits,Email,Not Applicable,Confirmed,Friday,Weekday,Summer,0,5,1,0,Friday
+A0826,P259,2026-05-31,Ent,Attended,6,False,Sunday,18-29,North,New Patient,SMS,Failed,No Response,Sunday,Weekend,Summer,0,5,0,1,Sunday
+A0828,P178,2026-08-25,Pediatrics,Attended,1,False,Tuesday,30-44,West,1-2 Visits,SMS,Sent,Rescheduled,Tuesday,Weekday,Monsoon,0,8,0,0,Tuesday
+A0829,P010,2026-03-07,Dermatology,Attended,10,False,Saturday,60+,Rural,6+ Visits,Email,Sent,No Response,Saturday,Weekend,Summer,0,3,1,0,Saturday
+A0831,P138,2026-09-06,Ent,Attended,12,False,Sunday,45-59,Rural,1-2 Visits,SMS,Failed,Confirmed,Sunday,Weekend,Monsoon,0,9,1,0,Sunday
+A0832,P172,2026-06-29,General Medicine,Attended,22,False,Monday,60+,Rural,3-5 Visits,Phone Call,Sent,Rescheduled,Monday,Weekday,Monsoon,0,6,1,0,Monday
+A0833,P013,2026-07-09,Ent,Attended,4,False,Thursday,45-59,West,6+ Visits,Phone Call,Not Applicable,Confirmed,Thursday,Weekday,Monsoon,0,7,0,0,Thursday
+A0834,P168,2026-06-03,Dermatology,Attended,29,False,Wednesday,45-59,North,New Patient,WhatsApp,Not Applicable,Confirmed,Wednesday,Weekday,Monsoon,0,6,1,1,Wednesday
+A0835,P130,2026-07-15,Cardiology,No-show,5,False,Wednesday,30-44,West,3-5 Visits,SMS,Sent,Rescheduled,Wednesday,Weekday,Monsoon,1,7,0,0,Wednesday
+A0836,P084,2026-09-19,Cardiology,Attended,23,False,Saturday,30-44,West,6+ Visits,Email,Not Applicable,Rescheduled,Saturday,Weekend,Monsoon,0,9,1,0,Saturday
+A0838,P273,2026-04-11,Orthopedics,Attended,28,False,Saturday,30-44,South,1-2 Visits,SMS,Sent,No Response,Saturday,Weekend,Summer,0,4,1,0,Saturday
+A0839,P265,2026-09-01,General Medicine,Attended,13,False,Tuesday,30-44,East,1-2 Visits,No Reminder,Sent,Confirmed,Tuesday,Weekday,Monsoon,0,9,1,0,Tuesday
+A0840,P038,2026-01-12,General Medicine,Attended,11,False,Monday,60+,West,1-2 Visits,Phone Call,Failed,No Response,Monday,Weekday,Winter,0,1,1,0,Monday
+A0841,P094,2026-08-27,Cardiology,Attended,3,False,Thursday,18-29,East,6+ Visits,Email,Not Applicable,Confirmed,Thursday,Weekday,Monsoon,0,8,0,0,Thursday
+A0842,P095,2026-02-18,Pediatrics,Attended,28,False,Wednesday,60+,East,1-2 Visits,Email,Failed,Rescheduled,Wednesday,Weekday,Winter,0,2,1,0,Wednesday
+A0843,P069,2026-02-11,Dermatology,Attended,22,False,Wednesday,18-29,East,3-5 Visits,Email,Failed,No Response,Wednesday,Weekday,Winter,0,2,1,0,Wednesday
+A0844,P236,2026-06-15,Pediatrics,Attended,5,False,Monday,60+,North,3-5 Visits,Phone Call,Not Applicable,Rescheduled,Monday,Weekday,Monsoon,0,6,0,0,Monday
+A0845,P137,2026-03-23,Pediatrics,Attended,9,False,Monday,45-59,North,1-2 Visits,SMS,Failed,Rescheduled,Monday,Weekday,Summer,0,3,1,0,Monday
+A0846,P076,2026-06-07,Ent,No-show,17,False,Sunday,45-59,West,6+ Visits,WhatsApp,Not Applicable,Rescheduled,Sunday,Weekend,Monsoon,1,6,1,0,Sunday
+A0847,P035,2026-08-04,Cardiology,Attended,14,False,Tuesday,18-29,North,1-2 Visits,SMS,Not Applicable,Rescheduled,Tuesday,Weekday,Monsoon,0,8,1,0,Tuesday
+A0848,P001,2026-06-07,Cardiology,No-show,7,False,Sunday,60+,West,1-2 Visits,WhatsApp,Failed,Rescheduled,Sunday,Weekend,Monsoon,1,6,1,0,Sunday
+A0849,P296,2026-05-14,Cardiology,Attended,25,False,Thursday,60+,East,New Patient,Email,Not Applicable,Confirmed,Thursday,Weekday,Summer,0,5,1,1,Thursday
+A0850,P060,2026-03-08,Ent,Attended,8,False,Sunday,30-44,Rural,1-2 Visits,SMS,Failed,No Response,Sunday,Weekend,Summer,0,3,1,0,Sunday
+A0851,P267,2026-01-07,Orthopedics,Attended,4,False,Wednesday,30-44,West,New Patient,Email,Not Applicable,Confirmed,Wednesday,Weekday,Winter,0,1,0,1,Wednesday
+A0852,P229,2026-01-14,Pediatrics,Attended,9,False,Wednesday,60+,West,6+ Visits,No Reminder,Sent,Confirmed,Wednesday,Weekday,Winter,0,1,1,0,Wednesday
+A0853,P270,2026-03-14,Ent,Attended,19,False,Saturday,60+,Rural,1-2 Visits,Email,Not Applicable,Confirmed,Saturday,Weekend,Summer,0,3,1,0,Saturday
+A0854,P286,2026-06-12,General Medicine,No-show,5,False,Friday,30-44,Rural,6+ Visits,Email,Not Applicable,Rescheduled,Friday,Weekday,Monsoon,1,6,0,0,Friday
+A0855,P291,2026-03-07,Dermatology,No-show,15,False,Saturday,18-29,East,1-2 Visits,WhatsApp,Failed,Confirmed,Saturday,Weekend,Summer,1,3,1,0,Saturday
+A0856,P213,2026-05-10,Orthopedics,Attended,23,False,Sunday,60+,North,3-5 Visits,No Reminder,Not Applicable,No Response,Sunday,Weekend,Summer,0,5,1,0,Sunday
+A0857,P165,2026-07-25,General Medicine,Attended,26,False,Saturday,45-59,North,New Patient,Email,Sent,Confirmed,Saturday,Weekend,Monsoon,0,7,1,1,Saturday
+A0858,P005,2026-09-13,Pediatrics,No-show,30,False,Sunday,60+,West,New Patient,Email,Sent,Rescheduled,Sunday,Weekend,Monsoon,1,9,1,1,Sunday
+A0859,P078,2026-09-23,Cardiology,Attended,2,False,Wednesday,18-29,West,3-5 Visits,No Reminder,Not Applicable,No Response,Wednesday,Weekday,Monsoon,0,9,0,0,Wednesday
+A0860,P062,2026-01-25,Pediatrics,No-show,9,False,Sunday,18-29,West,6+ Visits,No Reminder,Not Applicable,No Response,Sunday,Weekend,Winter,1,1,1,0,Sunday
+A0861,P132,2026-09-10,Ent,No-show,10,False,Thursday,18-29,East,3-5 Visits,SMS,Sent,No Response,Thursday,Weekday,Monsoon,1,9,1,0,Thursday
+A0862,P089,2026-06-13,Dermatology,No-show,10,False,Saturday,45-59,East,6+ Visits,WhatsApp,Failed,No Response,Saturday,Weekend,Monsoon,1,6,1,0,Saturday
+A0863,P237,2026-04-05,Ent,Attended,16,False,Sunday,60+,South,1-2 Visits,No Reminder,Sent,Confirmed,Sunday,Weekend,Summer,0,4,1,0,Sunday
+A0864,P042,2026-09-27,Orthopedics,Attended,3,False,Sunday,30-44,South,6+ Visits,No Reminder,Sent,Rescheduled,Sunday,Weekend,Monsoon,0,9,0,0,Sunday
+A0865,P089,2026-04-20,Orthopedics,Attended,30,False,Monday,45-59,East,6+ Visits,Phone Call,Not Applicable,No Response,Monday,Weekday,Summer,0,4,1,0,Monday
+A0866,P296,2026-08-26,Dermatology,Attended,3,False,Wednesday,60+,East,New Patient,No Reminder,Not Applicable,No Response,Wednesday,Weekday,Monsoon,0,8,0,1,Wednesday
+A0867,P295,2026-01-25,General Medicine,No-show,16,False,Sunday,18-29,East,New Patient,WhatsApp,Sent,Rescheduled,Sunday,Weekend,Winter,1,1,1,1,Sunday
+A0868,P104,2026-05-21,General Medicine,Attended,8,False,Thursday,45-59,East,6+ Visits,Email,Failed,Confirmed,Thursday,Weekday,Summer,0,5,1,0,Thursday
+A0869,P014,2026-04-27,Orthopedics,Attended,18,False,Monday,60+,East,3-5 Visits,Email,Sent,No Response,Monday,Weekday,Summer,0,4,1,0,Monday
+A0871,P179,2026-03-20,Cardiology,No-show,21,False,Friday,18-29,Rural,3-5 Visits,Email,Failed,Confirmed,Friday,Weekday,Summer,1,3,1,0,Friday
+A0873,P023,2026-06-22,Dermatology,No-show,5,False,Monday,18-29,East,New Patient,No Reminder,Sent,Confirmed,Monday,Weekday,Monsoon,1,6,0,1,Monday
+A0874,P063,2026-01-12,General Medicine,Attended,2,False,Monday,60+,West,New Patient,Email,Not Applicable,No Response,Monday,Weekday,Winter,0,1,0,1,Monday
+A0875,P143,2026-05-08,Cardiology,Attended,21,False,Friday,45-59,South,New Patient,SMS,Failed,No Response,Friday,Weekday,Summer,0,5,1,1,Friday
+A0877,P145,2026-04-02,Orthopedics,Attended,19,False,Thursday,60+,Rural,3-5 Visits,No Reminder,Not Applicable,Confirmed,Thursday,Weekday,Summer,0,4,1,0,Thursday
+A0878,P225,2026-05-21,Orthopedics,Attended,21,False,Thursday,30-44,South,1-2 Visits,Email,Failed,Rescheduled,Thursday,Weekday,Summer,0,5,1,0,Thursday
+A0879,P104,2026-01-31,Cardiology,Attended,15,False,Saturday,45-59,East,6+ Visits,Phone Call,Failed,Rescheduled,Saturday,Weekend,Winter,0,1,1,0,Saturday
+A0880,P104,2026-01-20,Dermatology,Attended,22,False,Tuesday,45-59,East,6+ Visits,WhatsApp,Sent,Rescheduled,Tuesday,Weekday,Winter,0,1,1,0,Tuesday
+A0881,P039,2026-05-26,Orthopedics,No-show,10,False,Tuesday,18-29,East,6+ Visits,WhatsApp,Not Applicable,No Response,Tuesday,Weekday,Summer,1,5,1,0,Tuesday
+A0882,P198,2026-06-09,Pediatrics,Attended,12,False,Tuesday,18-29,East,New Patient,No Reminder,Failed,Rescheduled,Tuesday,Weekday,Monsoon,0,6,1,1,Tuesday
+A0883,P134,2026-02-12,Orthopedics,Attended,26,False,Thursday,45-59,South,3-5 Visits,WhatsApp,Not Applicable,No Response,Thursday,Weekday,Winter,0,2,1,0,Thursday
+A0884,P067,2026-09-11,Pediatrics,Attended,9,False,Friday,45-59,North,3-5 Visits,WhatsApp,Not Applicable,No Response,Friday,Weekday,Monsoon,0,9,1,0,Friday
+A0885,P179,2026-05-10,Cardiology,Attended,2,False,Sunday,18-29,Rural,3-5 Visits,SMS,Failed,No Response,Sunday,Weekend,Summer,0,5,0,0,Sunday
+A0886,P042,2026-03-01,Cardiology,Attended,8,False,Sunday,30-44,South,6+ Visits,No Reminder,Sent,No Response,Sunday,Weekend,Summer,0,3,1,0,Sunday
+A0887,P015,2026-05-31,Orthopedics,Attended,27,False,Sunday,30-44,East,6+ Visits,No Reminder,Not Applicable,Rescheduled,Sunday,Weekend,Summer,0,5,1,0,Sunday
+A0889,P157,2026-09-23,Pediatrics,Attended,22,False,Wednesday,45-59,East,6+ Visits,WhatsApp,Sent,Confirmed,Wednesday,Weekday,Monsoon,0,9,1,0,Wednesday
+A0890,P289,2026-05-10,Dermatology,Attended,13,False,Sunday,45-59,East,New Patient,WhatsApp,Not Applicable,Confirmed,Sunday,Weekend,Summer,0,5,1,1,Sunday
+A0891,P231,2026-09-24,Orthopedics,Attended,0,False,Thursday,45-59,Rural,1-2 Visits,Phone Call,Failed,Rescheduled,Thursday,Weekday,Monsoon,0,9,0,0,Thursday
+A0892,P157,2026-06-27,Dermatology,No-show,17,False,Saturday,45-59,East,6+ Visits,Email,Not Applicable,Confirmed,Saturday,Weekend,Monsoon,1,6,1,0,Saturday
+A0893,P038,2026-09-10,Orthopedics,Attended,16,False,Thursday,60+,West,1-2 Visits,Phone Call,Failed,Rescheduled,Thursday,Weekday,Monsoon,0,9,1,0,Thursday
+A0894,P097,2026-02-25,General Medicine,No-show,26,False,Wednesday,18-29,East,1-2 Visits,No Reminder,Failed,Rescheduled,Wednesday,Weekday,Winter,1,2,1,0,Wednesday
+A0895,P289,2026-03-24,General Medicine,Attended,8,False,Tuesday,45-59,East,New Patient,SMS,Not Applicable,Rescheduled,Tuesday,Weekday,Summer,0,3,1,1,Tuesday
+A0896,P254,2026-04-09,General Medicine,No-show,8,False,Thursday,60+,East,1-2 Visits,Email,Not Applicable,Confirmed,Thursday,Weekday,Summer,1,4,1,0,Thursday
+A0897,P196,2026-05-29,Ent,Attended,22,False,Friday,18-29,South,1-2 Visits,SMS,Failed,Confirmed,Friday,Weekday,Summer,0,5,1,0,Friday
+A0898,P086,2026-06-05,General Medicine,No-show,9,False,Friday,60+,South,6+ Visits,No Reminder,Sent,Confirmed,Friday,Weekday,Monsoon,1,6,1,0,Friday
+A0899,P010,2026-07-09,Cardiology,Attended,18,False,Thursday,60+,Rural,6+ Visits,No Reminder,Not Applicable,No Response,Thursday,Weekday,Monsoon,0,7,1,0,Thursday
+A0901,P123,2026-03-21,Ent,Attended,14,False,Saturday,30-44,Rural,3-5 Visits,SMS,Failed,No Response,Saturday,Weekend,Summer,0,3,1,0,Saturday
+A0902,P118,2026-09-09,Pediatrics,Attended,4,False,Wednesday,30-44,South,1-2 Visits,SMS,Sent,Rescheduled,Wednesday,Weekday,Monsoon,0,9,0,0,Wednesday
+A0903,P294,2026-04-07,Dermatology,Attended,14,False,Tuesday,45-59,East,New Patient,No Reminder,Sent,Confirmed,Tuesday,Weekday,Summer,0,4,1,1,Tuesday
+A0904,P159,2026-09-17,Orthopedics,Attended,19,False,Thursday,30-44,East,3-5 Visits,WhatsApp,Sent,Rescheduled,Thursday,Weekday,Monsoon,0,9,1,0,Thursday
+A0905,P228,2026-09-17,Orthopedics,No-show,22,False,Thursday,30-44,Rural,3-5 Visits,SMS,Not Applicable,Rescheduled,Thursday,Weekday,Monsoon,1,9,1,0,Thursday
+A0906,P216,2026-04-13,Ent,Attended,29,False,Monday,30-44,South,3-5 Visits,Email,Failed,No Response,Monday,Weekday,Summer,0,4,1,0,Monday
+A0907,P184,2026-02-09,Cardiology,Attended,24,False,Monday,30-44,West,6+ Visits,No Reminder,Failed,Rescheduled,Monday,Weekday,Winter,0,2,1,0,Monday
+A0908,P015,2026-09-30,Orthopedics,Attended,27,False,Wednesday,30-44,East,6+ Visits,Phone Call,Failed,Confirmed,Wednesday,Weekday,Monsoon,0,9,1,0,Wednesday
+A0909,P157,2026-04-11,Cardiology,Attended,1,False,Saturday,45-59,East,6+ Visits,Phone Call,Sent,Rescheduled,Saturday,Weekend,Summer,0,4,0,0,Saturday
+A0910,P136,2026-08-09,Pediatrics,No-show,12,False,Sunday,18-29,West,1-2 Visits,Email,Failed,Rescheduled,Sunday,Weekend,Monsoon,1,8,1,0,Sunday
+A0911,P261,2026-05-04,Dermatology,No-show,23,False,Monday,60+,East,New Patient,WhatsApp,Not Applicable,Rescheduled,Monday,Weekday,Summer,1,5,1,1,Monday
+A0912,P157,2026-08-19,Pediatrics,No-show,15,False,Wednesday,45-59,East,6+ Visits,SMS,Sent,No Response,Wednesday,Weekday,Monsoon,1,8,1,0,Wednesday
+A0913,P047,2026-06-27,Ent,Attended,14,False,Saturday,60+,South,1-2 Visits,No Reminder,Sent,Rescheduled,Saturday,Weekend,Monsoon,0,6,1,0,Saturday
+A0914,P173,2026-03-04,General Medicine,Attended,24,False,Wednesday,45-59,South,3-5 Visits,SMS,Sent,Rescheduled,Wednesday,Weekday,Summer,0,3,1,0,Wednesday
+A0915,P130,2026-04-26,General Medicine,No-show,9,False,Sunday,30-44,West,3-5 Visits,No Reminder,Sent,No Response,Sunday,Weekend,Summer,1,4,1,0,Sunday
+A0916,P095,2026-07-10,General Medicine,Attended,13,False,Friday,60+,East,1-2 Visits,Phone Call,Not Applicable,No Response,Friday,Weekday,Monsoon,0,7,1,0,Friday
+A0917,P115,2026-03-03,Pediatrics,Attended,9,False,Tuesday,45-59,West,3-5 Visits,SMS,Failed,No Response,Tuesday,Weekday,Summer,0,3,1,0,Tuesday
+A0918,P243,2026-09-13,Orthopedics,Attended,24,False,Sunday,18-29,West,3-5 Visits,Email,Not Applicable,No Response,Sunday,Weekend,Monsoon,0,9,1,0,Sunday
+A0919,P292,2026-01-07,Dermatology,Attended,13,False,Wednesday,45-59,South,New Patient,WhatsApp,Failed,Confirmed,Wednesday,Weekday,Winter,0,1,1,1,Wednesday
+A0920,P282,2026-06-04,General Medicine,Attended,25,False,Thursday,18-29,North,3-5 Visits,Email,Not Applicable,Confirmed,Thursday,Weekday,Monsoon,0,6,1,0,Thursday
+A0922,P283,2026-01-14,Ent,Attended,22,False,Wednesday,18-29,South,1-2 Visits,SMS,Sent,Confirmed,Wednesday,Weekday,Winter,0,1,1,0,Wednesday
+A0923,P069,2026-08-17,General Medicine,Attended,30,False,Monday,18-29,East,3-5 Visits,SMS,Not Applicable,Rescheduled,Monday,Weekday,Monsoon,0,8,1,0,Monday
+A0924,P148,2026-03-27,General Medicine,Attended,8,False,Friday,18-29,West,1-2 Visits,WhatsApp,Not Applicable,Confirmed,Friday,Weekday,Summer,0,3,1,0,Friday
+A0925,P011,2026-05-13,Dermatology,Attended,24,False,Wednesday,18-29,Rural,3-5 Visits,Phone Call,Failed,No Response,Wednesday,Weekday,Summer,0,5,1,0,Wednesday
+A0926,P254,2026-07-02,General Medicine,Attended,13,False,Thursday,60+,East,1-2 Visits,No Reminder,Not Applicable,No Response,Thursday,Weekday,Monsoon,0,7,1,0,Thursday
+A0929,P200,2026-09-03,General Medicine,Attended,15,False,Thursday,30-44,East,New Patient,Email,Failed,Rescheduled,Thursday,Weekday,Monsoon,0,9,1,1,Thursday
+A0932,P141,2026-05-29,Ent,No-show,2,False,Friday,45-59,East,6+ Visits,No Reminder,Failed,No Response,Friday,Weekday,Summer,1,5,0,0,Friday
+A0933,P104,2026-05-18,Dermatology,No-show,10,False,Monday,45-59,East,6+ Visits,No Reminder,Sent,No Response,Monday,Weekday,Summer,1,5,1,0,Monday
+A0934,P210,2026-03-06,Pediatrics,Attended,10,False,Friday,45-59,Rural,6+ Visits,WhatsApp,Sent,No Response,Friday,Weekday,Summer,0,3,1,0,Friday
+A0935,P111,2026-01-13,Dermatology,Attended,20,False,Tuesday,18-29,East,New Patient,SMS,Sent,No Response,Tuesday,Weekday,Winter,0,1,1,1,Tuesday
+A0936,P104,2026-08-01,Pediatrics,Attended,20,False,Saturday,45-59,East,6+ Visits,No Reminder,Not Applicable,Rescheduled,Saturday,Weekend,Monsoon,0,8,1,0,Saturday
+A0937,P171,2026-08-30,Pediatrics,Attended,21,False,Sunday,45-59,North,1-2 Visits,Phone Call,Sent,No Response,Sunday,Weekend,Monsoon,0,8,1,0,Sunday
+A0939,P293,2026-06-30,Orthopedics,Attended,6,False,Tuesday,60+,Rural,6+ Visits,SMS,Not Applicable,No Response,Tuesday,Weekday,Monsoon,0,6,0,0,Tuesday
+A0940,P127,2026-06-22,Pediatrics,No-show,22,False,Monday,60+,North,1-2 Visits,No Reminder,Sent,No Response,Monday,Weekday,Monsoon,1,6,1,0,Monday
+A0941,P106,2026-06-09,General Medicine,No-show,16,False,Tuesday,30-44,North,3-5 Visits,Phone Call,Failed,Confirmed,Tuesday,Weekday,Monsoon,1,6,1,0,Tuesday
+A0942,P092,2026-06-13,Ent,No-show,29,False,Saturday,30-44,North,6+ Visits,WhatsApp,Not Applicable,Rescheduled,Saturday,Weekend,Monsoon,1,6,1,0,Saturday
+A0944,P051,2026-07-10,Dermatology,Attended,11,False,Friday,30-44,South,New Patient,Phone Call,Not Applicable,No Response,Friday,Weekday,Monsoon,0,7,1,1,Friday
+A0945,P029,2026-09-13,Orthopedics,Attended,24,False,Sunday,60+,North,New Patient,SMS,Failed,Confirmed,Sunday,Weekend,Monsoon,0,9,1,1,Sunday
+A0946,P296,2026-07-02,Cardiology,Attended,9,False,Thursday,60+,East,New Patient,Phone Call,Failed,Rescheduled,Thursday,Weekday,Monsoon,0,7,1,1,Thursday
+A0947,P297,2026-04-27,Cardiology,Attended,17,False,Monday,18-29,South,6+ Visits,SMS,Sent,Rescheduled,Monday,Weekday,Summer,0,4,1,0,Monday
+A0948,P214,2026-07-15,Pediatrics,Attended,21,False,Wednesday,30-44,West,1-2 Visits,No Reminder,Not Applicable,No Response,Wednesday,Weekday,Monsoon,0,7,1,0,Wednesday
+A0949,P267,2026-02-03,Pediatrics,Attended,26,False,Tuesday,30-44,West,New Patient,No Reminder,Not Applicable,No Response,Tuesday,Weekday,Winter,0,2,1,1,Tuesday
+A0950,P257,2026-02-21,General Medicine,No-show,10,False,Saturday,30-44,Rural,New Patient,Email,Not Applicable,Rescheduled,Saturday,Weekend,Winter,1,2,1,1,Saturday
+A0951,P101,2026-04-22,Ent,Attended,15,False,Wednesday,45-59,East,6+ Visits,Email,Not Applicable,Rescheduled,Wednesday,Weekday,Summer,0,4,1,0,Wednesday
+A0952,P110,2026-09-09,Orthopedics,Attended,16,False,Wednesday,18-29,East,New Patient,Email,Sent,Confirmed,Wednesday,Weekday,Monsoon,0,9,1,1,Wednesday
+A0953,P182,2026-03-23,Cardiology,Attended,18,False,Monday,60+,West,1-2 Visits,No Reminder,Failed,Rescheduled,Monday,Weekday,Summer,0,3,1,0,Monday
+A0954,P001,2026-08-20,Pediatrics,Attended,17,False,Thursday,60+,West,1-2 Visits,WhatsApp,Sent,Rescheduled,Thursday,Weekday,Monsoon,0,8,1,0,Thursday
+A0955,P055,2026-08-15,Ent,Attended,2,False,Saturday,45-59,East,New Patient,No Reminder,Not Applicable,No Response,Saturday,Weekend,Monsoon,0,8,0,1,Saturday
+A0956,P149,2026-08-21,Orthopedics,No-show,20,False,Friday,45-59,East,3-5 Visits,Phone Call,Not Applicable,Rescheduled,Friday,Weekday,Monsoon,1,8,1,0,Friday
+A0957,P137,2026-08-09,Pediatrics,Attended,26,False,Sunday,45-59,North,1-2 Visits,No Reminder,Failed,No Response,Sunday,Weekend,Monsoon,0,8,1,0,Sunday
+A0958,P202,2026-02-11,Pediatrics,No-show,25,False,Wednesday,18-29,South,1-2 Visits,No Reminder,Not Applicable,Rescheduled,Wednesday,Weekday,Winter,1,2,1,0,Wednesday
+A0959,P117,2026-01-21,Cardiology,Attended,15,False,Wednesday,60+,West,1-2 Visits,SMS,Sent,Rescheduled,Wednesday,Weekday,Winter,0,1,1,0,Wednesday
+A0960,P154,2026-02-11,Cardiology,No-show,5,False,Wednesday,60+,Rural,6+ Visits,SMS,Sent,Rescheduled,Wednesday,Weekday,Winter,1,2,0,0,Wednesday
+A0961,P291,2026-04-23,Pediatrics,Attended,24,False,Thursday,18-29,East,1-2 Visits,SMS,Failed,Confirmed,Thursday,Weekday,Summer,0,4,1,0,Thursday
+A0962,P063,2026-04-15,Dermatology,Attended,11,False,Wednesday,60+,West,New Patient,No Reminder,Sent,No Response,Wednesday,Weekday,Summer,0,4,1,1,Wednesday
+A0963,P244,2026-07-11,Pediatrics,Attended,10,False,Saturday,30-44,Rural,New Patient,WhatsApp,Sent,Confirmed,Saturday,Weekend,Monsoon,0,7,1,1,Saturday
+A0965,P090,2026-04-30,Pediatrics,Attended,14,False,Thursday,18-29,Rural,6+ Visits,Phone Call,Sent,Confirmed,Thursday,Weekday,Summer,0,4,1,0,Thursday
+A0966,P075,2026-05-09,General Medicine,Attended,15,False,Saturday,60+,Rural,1-2 Visits,WhatsApp,Not Applicable,No Response,Saturday,Weekend,Summer,0,5,1,0,Saturday
+A0968,P210,2026-03-01,General Medicine,No-show,11,False,Sunday,45-59,Rural,6+ Visits,Phone Call,Failed,Confirmed,Sunday,Weekend,Summer,1,3,1,0,Sunday
+A0969,P017,2026-02-17,Dermatology,Attended,27,False,Tuesday,45-59,Rural,New Patient,Email,Failed,Confirmed,Tuesday,Weekday,Winter,0,2,1,1,Tuesday
+A0970,P128,2026-01-29,Dermatology,No-show,12,False,Thursday,60+,Rural,3-5 Visits,SMS,Sent,No Response,Thursday,Weekday,Winter,1,1,1,0,Thursday
+A0971,P251,2026-04-07,Pediatrics,Attended,3,False,Tuesday,60+,West,3-5 Visits,SMS,Failed,Confirmed,Tuesday,Weekday,Summer,0,4,0,0,Tuesday
+A0972,P179,2026-01-10,General Medicine,Attended,6,False,Saturday,18-29,Rural,3-5 Visits,Phone Call,Sent,No Response,Saturday,Weekend,Winter,0,1,0,0,Saturday
+A0973,P182,2026-08-30,Dermatology,Attended,21,False,Sunday,60+,West,1-2 Visits,WhatsApp,Failed,Rescheduled,Sunday,Weekend,Monsoon,0,8,1,0,Sunday
+A0976,P180,2026-09-04,Ent,Attended,26,False,Friday,60+,West,6+ Visits,SMS,Sent,Rescheduled,Friday,Weekday,Monsoon,0,9,1,0,Friday
+A0977,P198,2026-09-21,Orthopedics,Attended,26,False,Monday,18-29,East,New Patient,No Reminder,Not Applicable,Rescheduled,Monday,Weekday,Monsoon,0,9,1,1,Monday
+A0978,P161,2026-08-02,Pediatrics,Attended,26,False,Sunday,60+,West,3-5 Visits,WhatsApp,Sent,Confirmed,Sunday,Weekend,Monsoon,0,8,1,0,Sunday
+A0981,P063,2026-06-22,Orthopedics,Attended,7,False,Monday,60+,West,New Patient,SMS,Sent,No Response,Monday,Weekday,Monsoon,0,6,1,1,Monday
+A0982,P150,2026-03-10,General Medicine,No-show,6,False,Tuesday,60+,West,6+ Visits,Email,Sent,No Response,Tuesday,Weekday,Summer,1,3,0,0,Tuesday
+A0983,P154,2026-03-28,Cardiology,No-show,30,False,Saturday,60+,Rural,6+ Visits,No Reminder,Not Applicable,No Response,Saturday,Weekend,Summer,1,3,1,0,Saturday
+A0984,P156,2026-04-11,Orthopedics,Attended,14,False,Saturday,30-44,North,6+ Visits,Email,Sent,Confirmed,Saturday,Weekend,Summer,0,4,1,0,Saturday
+A0985,P049,2026-01-08,Pediatrics,Attended,22,False,Thursday,30-44,North,6+ Visits,SMS,Sent,Confirmed,Thursday,Weekday,Winter,0,1,1,0,Thursday
+A0986,P084,2026-07-19,General Medicine,Attended,13,False,Sunday,30-44,West,6+ Visits,No Reminder,Not Applicable,Rescheduled,Sunday,Weekend,Monsoon,0,7,1,0,Sunday
+A0987,P177,2026-03-28,Pediatrics,Attended,30,False,Saturday,30-44,North,New Patient,Email,Not Applicable,Rescheduled,Saturday,Weekend,Summer,0,3,1,1,Saturday
+A0988,P148,2026-02-12,Dermatology,Attended,7,False,Thursday,18-29,West,1-2 Visits,Email,Failed,Rescheduled,Thursday,Weekday,Winter,0,2,1,0,Thursday
+A0989,P118,2026-04-19,General Medicine,Attended,27,False,Sunday,30-44,South,1-2 Visits,No Reminder,Sent,Rescheduled,Sunday,Weekend,Summer,0,4,1,0,Sunday
+A0991,P189,2026-01-17,General Medicine,Attended,12,False,Saturday,60+,South,1-2 Visits,Email,Failed,Confirmed,Saturday,Weekend,Winter,0,1,1,0,Saturday
+A0992,P049,2026-05-13,Pediatrics,Attended,29,False,Wednesday,30-44,North,6+ Visits,Phone Call,Not Applicable,Confirmed,Wednesday,Weekday,Summer,0,5,1,0,Wednesday
+A0993,P257,2026-05-28,Cardiology,No-show,10,False,Thursday,30-44,Rural,New Patient,No Reminder,Sent,No Response,Thursday,Weekday,Summer,1,5,1,1,Thursday
+A0994,P224,2026-08-20,General Medicine,No-show,16,False,Thursday,18-29,North,6+ Visits,WhatsApp,Sent,No Response,Thursday,Weekday,Monsoon,1,8,1,0,Thursday
+A0995,P141,2026-08-16,Orthopedics,Attended,30,False,Sunday,45-59,East,6+ Visits,WhatsApp,Not Applicable,No Response,Sunday,Weekend,Monsoon,0,8,1,0,Sunday
+A0996,P215,2026-05-19,Dermatology,Attended,28,False,Tuesday,60+,East,3-5 Visits,SMS,Failed,No Response,Tuesday,Weekday,Summer,0,5,1,0,Tuesday
+A0997,P211,2026-07-30,Ent,Attended,16,False,Thursday,45-59,North,1-2 Visits,Phone Call,Not Applicable,Confirmed,Thursday,Weekday,Monsoon,0,7,1,0,Thursday
+A0998,P032,2026-01-28,Cardiology,Attended,23,False,Wednesday,30-44,Rural,3-5 Visits,Email,Sent,Confirmed,Wednesday,Weekday,Winter,0,1,1,0,Wednesday
+A0999,P158,2026-02-20,Dermatology,Attended,3,False,Friday,30-44,South,6+ Visits,WhatsApp,Not Applicable,Confirmed,Friday,Weekday,Winter,0,2,0,0,Friday
+A1000,P285,2026-09-18,General Medicine,Attended,20,False,Friday,60+,Rural,New Patient,SMS,Sent,Rescheduled,Friday,Weekday,Monsoon,0,9,1,1,Friday
